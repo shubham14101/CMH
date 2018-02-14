@@ -3,12 +3,13 @@ library('networkD3')
 library('rhandsontable')
 library('shiny')
 library('shinydashboard')
-library('dplyr')
+#library('dplyr')
 library('visNetwork')
 source('error.bar.R')
 
 
 shinyServer(function(input, output,session) {
+  print("1")
 
   bn.hc.boot.fit = readRDS("CHILD&MATERNAL_HEALTH_RESULTS_bnfit.RData")
   DiscreteData = readRDS("CHILD&MATERNAL_HEALTH_RESULTS_data.RData")
@@ -23,8 +24,9 @@ shinyServer(function(input, output,session) {
   EventNode = nodeNames[1]
   EvidenceNode = c()
   updateSelectInput(session,'event',choices = nodeNames)
-  updateSelectInput(session,'variable',choices = c("Codebook","Documentation","Description"))
-  output$pdf<- renderUI({tags$iframe(style="height:600px; width:100%", src=paste(input$variable,".pdf",sep = ""))})
+  output$pdf1 <-renderUI({tags$iframe(style="height:600px; width:100%", src = "Codebook.pdf")})
+  output$pdf2 <-renderUI({tags$iframe(style="height:600px; width:100%", src = "Documentation.pdf")})
+  output$pdf3 <-renderUI({tags$iframe(style="height:600px; width:100%", src = "Documentation.pdf")})
   rvs = reactiveValues(evidence = list(),values = list(),evidenceObserve = list(),valueObserve = list())
   observeEvent(input$insertBtn, {
     if(input$module == "graph")
@@ -175,34 +177,9 @@ shinyServer(function(input, output,session) {
     nodes <- data.frame(name = selectedNodes)
     nodes$id <- 0:(nrow(nodes) - 1)
     colnames(networkData) = c("src","target")
-    edges <- networkData %>%
-      left_join(nodes, by = c("src" = "name")) %>%
-      select(-src) %>%
-      rename(source = id) %>%
-      left_join(nodes, by = c("target" = "name")) %>%
-      select(-target) %>%
-      rename(target = id)
-
-    edges$width <- 1
-
     nodes$group <- "not in use"
     nodes[which(nodes$name %in% EvidenceNode),3] = "Evidence"
     nodes[which(nodes$name == EventNode),3] = "Event"
-    ColourScale <- 'd3.scaleOrdinal().domain(["not in use","Event","Evidence"]).range(["#0E5AE8", "#50E80E","#FF0000"]);'
-    #output$netPlot <- networkD3::renderSimpleNetwork({
-    #  networkD3::forceNetwork(Links = edges, Nodes = nodes,
-    #                          Source = "source",
-    #                          Target = "target",
-    #                          NodeID ="name",
-    #                          Group = "group",
-    #                          Value = "width",
-    #                          opacity = 0.9,
-    #                          arrows = TRUE,
-    #                          opacityNoHover = 0.9,
-    #                          zoom = TRUE,
-    #                          legend = T,
-    #                          colourScale = JS(ColourScale))
-    #})
     visNodes<- data.frame(id = selectedNodes,
                           label = selectedNodes,
                           group = nodes$group)
@@ -212,8 +189,8 @@ shinyServer(function(input, output,session) {
       visNetwork(visNodes, visEdges, width = "200%") %>%
         visEdges(arrows ="to",smooth = T,color = list(color = "black",highlight = "yellow",hover = "yellow"))%>%
         visGroups(groupname = "not in use", color = list(background = "lightblue",highlight = 'yellow', hover = "yellow")) %>%
-        visGroups(groupname = "Event", color = list(background = "green",highlight = "yellow", hover = "yellow"))%>%
-        visGroups(groupname = "Evidence", color = list(background = "red",highlight = "yellow", hover = "yellow")) %>%
+        visGroups(groupname = "Event", color = list(background = "lightgreen",highlight = "yellow", hover = "yellow"))%>%
+        visGroups(groupname = "Evidence", color = list(background = "pink",highlight = "yellow", hover = "yellow")) %>%
         visLegend(width = 0.1, position = "left")%>%
         visNodes(shape = "dot") %>%
         visOptions(highlightNearest = list(enabled =TRUE, degree = input$degree,hover = T, hideColor = 'rgba(200,200,200,0)'), nodesIdSelection = TRUE)%>%
@@ -239,16 +216,7 @@ shinyServer(function(input, output,session) {
     target <- NetworkGraph$to[subgraphNodes]
     nodes <- data.frame(name = selectedNodes)
     nodes$id <- 0:(nrow(nodes) - 1)
-    colnames(networkData) = c("src","target")
-    edges <- networkData %>%
-      left_join(nodes, by = c("src" = "name")) %>%
-      select(-src) %>%
-      rename(source = id) %>%
-      left_join(nodes, by = c("target" = "name")) %>%
-      select(-target) %>%
-      rename(target = id)
 
-    edges$width <- 1
     EventNode = selectedNodes[1]
     EvidenceNode = c()
     nodes$group <- "not in use"
@@ -256,23 +224,9 @@ shinyServer(function(input, output,session) {
     nodes[which(nodes$name == EventNode),3] = "Event"
     nd = nodes
     nd$color<- 'blue'
-    nd[which(nd$name %in% EvidenceNode),4] = "red"
-    nd[which(nd$name == EventNode),4] = "green"
-    ColourScale <- 'd3.scaleOrdinal().domain(["not in use","Event","Evidence"]).range(["#0E5AE8", "#50E80E","#FF0000"]);'
-    #output$netPlot <- networkD3::renderSimpleNetwork({
-    #  networkD3::forceNetwork(Links = edges, Nodes = nodes,
-    #                          Source = "source",
-    #                          Target = "target",
-    #                          NodeID ="name",
-    #                          Group = "group",
-    #                          Value = "width",
-    #                          opacity = 0.9,
-    #                          arrows = TRUE,
-    #                          opacityNoHover = 0.9,
-    #                          legend = T,
-    #                          colourScale = JS(ColourScale),
-    #                          zoom = TRUE)
-    #})
+    nd[which(nd$name %in% EvidenceNode),4] = "pink"
+    nd[which(nd$name == EventNode),4] = "lightgreen"
+
     visNodes<- data.frame(id = selectedNodes,
                           label = selectedNodes,
                           group = nodes$group)
@@ -282,8 +236,8 @@ shinyServer(function(input, output,session) {
       visNetwork(visNodes, visEdges, width = "200%") %>%
         visEdges(arrows ="to",smooth = T,color = list(color = "black",highlight = "yellow",hover = "yellow"))%>%
         visGroups(groupname = "not in use", color = list(background ="lightblue",highlight = 'yellow', hover = "yellow")) %>%
-        visGroups(groupname = "Event", color = list(background = "green",highlight = "yellow", hover = "yellow"))%>%
-        visGroups(groupname = "Evidence", color = list(background = "red",highlight = "yellow", hover = "yellow")) %>%
+        visGroups(groupname = "Event", color = list(background = "lightgreen",highlight = "yellow", hover = "yellow"))%>%
+        visGroups(groupname = "Evidence", color = list(background = "pink",highlight = "yellow", hover = "yellow")) %>%
         visLegend(width = 0.1, position = "left")%>%
         visNodes(shape = "dot") %>%
         visOptions(highlightNearest = list(enabled =TRUE, degree = 2,hover = T, hideColor = 'rgba(200,200,200,0)'), nodesIdSelection = TRUE)%>%
@@ -318,11 +272,6 @@ shinyServer(function(input, output,session) {
     EvidenceNode = c()
 
   })
-
-  observeEvent(input$variable,{
-    output$pdf<- renderUI({tags$iframe(style="height:600px; width:100%", src=paste(input$variable,".pdf",sep = ""))})
-  })
-
   observeEvent(input$graphBtn,{
     for(elem in inserted)
     {
@@ -345,35 +294,10 @@ shinyServer(function(input, output,session) {
     target <- NetworkGraph$to[subgraphNodes]
     nodes <- data.frame(name = selectedNodes)
     nodes$id <- 0:(nrow(nodes) - 1)
-    colnames(networkData) = c("src","target")
-    edges <- networkData %>%
-      left_join(nodes, by = c("src" = "name")) %>%
-      select(-src) %>%
-      rename(source = id) %>%
-      left_join(nodes, by = c("target" = "name")) %>%
-      select(-target) %>%
-      rename(target = id)
-
-    edges$width <- 1
-
     nodes$group <- "not in use"
     nodes[which(nodes$name %in% EvidenceNode),3] = "Evidence"
     nodes[which(nodes$name == EventNode),3] = "Event"
-    ColourScale <- 'd3.scaleOrdinal().domain(["not in use","Event","Evidence"]).range(["#0E5AE8", "#50E80E","#FF0000"]);'
-    #output$netPlot <- networkD3::renderSimpleNetwork({
-    #  networkD3::forceNetwork(Links = edges, Nodes = nodes,
-    #                          Source = "source",
-    #                          Target = "target",
-    #                          NodeID ="name",
-    #                          Group = "group",
-    #                          Value = "width",
-    #                          opacity = 0.9,
-    #                          arrows = TRUE,
-    #                          opacityNoHover = 0.9,
-    #                          zoom = TRUE,
-    #                          legend = T,
-    #                          colourScale = JS(ColourScale))
-    #})
+
     visNodes<- data.frame(id = selectedNodes,
                           label = selectedNodes,
                           group = nodes$group)
@@ -383,8 +307,8 @@ shinyServer(function(input, output,session) {
       visNetwork(visNodes, visEdges, width = "200%") %>%
         visEdges(arrows ="to",smooth = T,color = list(color = "black",highlight = "yellow",hover = "yellow"))%>%
         visGroups(groupname = "not in use", color = list(background = "lightblue",highlight = 'yellow', hover = "yellow")) %>%
-        visGroups(groupname = "Event", color = list(background = "green",highlight = "yellow", hover = "yellow"))%>%
-        visGroups(groupname = "Evidence", color = list(background = "red",highlight = "yellow", hover = "yellow")) %>%
+        visGroups(groupname = "Event", color = list(background = "lightgreen",highlight = "yellow", hover = "yellow"))%>%
+        visGroups(groupname = "Evidence", color = list(background = "pink",highlight = "yellow", hover = "yellow")) %>%
         visLegend(width = 0.1, position = "left")%>%
         visNodes(shape = "dot") %>%
         visOptions(highlightNearest = list(enabled =TRUE, degree = input$degree,hover = T, hideColor = 'rgba(200,200,200,0)'), nodesIdSelection = TRUE)%>%
