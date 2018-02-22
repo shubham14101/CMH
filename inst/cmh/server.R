@@ -10,6 +10,7 @@ library('shinyalert')
 library('shinycssloaders')
 
 shinyServer(function(input, output,session) {
+  output$distPlot<- renderPlot(validate("Built infrence plot will be displayed here"))
   bn.hc.boot.fit = get(load("bn.fit.RData"))
   DiscreteData = get(load("bn.data.RData"))
   bn.hc.boot.average = get(load("bn.average.RData"))
