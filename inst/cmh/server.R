@@ -16,6 +16,7 @@ shinyServer(function(input, output,session) {
   nodeNames = names(bn.hc.boot.average$nodes)
   moduleData = read.csv('modularity2.csv')
   updateSelectInput(session,'module',choices = c("graph",paste("Module",c(1:max(moduleData[,2])),sep=" ")))
+  updateSelectInput(session,'graph_layout',choices = c("layout_nicely","layout_as_star","layout_as_tree","layout_in_circle","layout_with_sugiyama","layout_on_sphere","layout_randomly","layout_with_fr","layout_with_kk","layout_with_lgl","layout_with_mds","layout_on_grid","layout_with_graphopt","layout_with_gem","layout_with_dh"))
   moduleData[,2] = paste("Module",moduleData[,2],sep=" ")
   inserted  = c()
   insertedV = c()
@@ -193,7 +194,7 @@ shinyServer(function(input, output,session) {
         visNodes(shape = "dot") %>%
         visOptions(highlightNearest = list(enabled =TRUE, degree = input$degree,hover = T, hideColor = 'rgba(200,200,200,0)'), nodesIdSelection = TRUE)%>%
         #visInteraction(navigationButtons = TRUE)%>%
-        visIgraphLayout()
+        visIgraphLayout(layout = input$graph_layout)
     })
 
   })
@@ -240,7 +241,7 @@ shinyServer(function(input, output,session) {
         visNodes(shape = "dot") %>%
         visOptions(highlightNearest = list(enabled =TRUE, degree = 2,hover = T, hideColor = 'rgba(200,200,200,0)'), nodesIdSelection = TRUE)%>%
         #visInteraction(navigationButtons = TRUE)%>%
-        visIgraphLayout()
+        visIgraphLayout(layout = input$graph_layout)
     })
     for(elem in 1:length(inserted))
     {
@@ -311,7 +312,7 @@ shinyServer(function(input, output,session) {
         visNodes(shape = "dot") %>%
         visOptions(highlightNearest = list(enabled =TRUE, degree = input$degree,hover = T, hideColor = 'rgba(200,200,200,0)'), nodesIdSelection = TRUE)%>%
         #visInteraction(navigationButtons = TRUE)%>%
-        visIgraphLayout()
+        visIgraphLayout(layout = input$graph_layout)
     })
 
   })
