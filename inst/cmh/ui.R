@@ -54,7 +54,7 @@ dashboardPage(skin = "blue",
                                                                                              shiny::fluidRow(shiny::column(12,
                                                                                                                            selectInput("module",
                                                                                                                                        "Module Selection:",
-                                                                                                                                       "Module 1"
+                                                                                                                                       "graph"
                                                                                                                                        )
                                                                                                                            )
                                                                                                              ),
