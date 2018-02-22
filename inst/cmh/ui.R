@@ -6,8 +6,6 @@ library('dplyr')
 library('visNetwork')
 source('error.bar.R')
 library('shinyWidgets')
-library('missRanger')
-library('tools')
 library('shinyalert')
 library('shinycssloaders')
 library('shinythemes')
@@ -97,10 +95,10 @@ dashboardPage(skin = "blue",
                                                                     tabBox(width = 12,
                                                                            id = "visula",
                                                                            tabPanel("Network Graph",
-                                                                                    withSpinner(visNetworkOutput("netPlot",height = "700px"), color= "#428bca")
+                                                                                    withSpinner(visNetworkOutput("netPlot",height = "700px"), color= "#0099CC")
                                                                                     ),
                                                                            tabPanel("Inference Plot",
-                                                                                    withSpinner(shiny::plotOutput("distPlot"), color= "#428bca")
+                                                                                    withSpinner(shiny::plotOutput("distPlot"), color= "#0099CC")
                                                                                     )
                                                                            )
                                                                     )
