@@ -185,10 +185,10 @@ shinyServer(function(input, output,session) {
                           to = NetworkGraph$to[subgraphNodes])
     output$netPlot<-renderVisNetwork({
       visNetwork(visNodes, visEdges, width = "200%") %>%
-        visEdges(arrows ="to",smooth = T,color = list(color = "black",highlight = "yellow",hover = "yellow"))%>%
-        visGroups(groupname = "not in use", color = list(background = "lightblue",highlight = 'yellow', hover = "yellow")) %>%
-        visGroups(groupname = "Event", color = list(background = "lightgreen",highlight = "yellow", hover = "yellow"))%>%
-        visGroups(groupname = "Evidence", color = list(background = "pink",highlight = "yellow", hover = "yellow")) %>%
+        visEdges(arrows ="to",smooth = T,color = list(color = "grey",highlight = "black",hover = "blcak"))%>%
+        visGroups(groupname = "not in use", color = list(background = "lightblue",highlight = 'blue', hover = "blue")) %>%
+        visGroups(groupname = "Event", color = list(background = "lightgreen",highlight = "green", hover = "green"))%>%
+        visGroups(groupname = "Evidence", color = list(background = "pink",highlight = "red", hover = "red")) %>%
         visLegend(width = 0.1, position = "left")%>%
         visNodes(shape = "dot") %>%
         visOptions(highlightNearest = list(enabled =TRUE, degree = input$degree,hover = T, hideColor = 'rgba(200,200,200,0)'), nodesIdSelection = TRUE)%>%
@@ -232,10 +232,10 @@ shinyServer(function(input, output,session) {
                           to = NetworkGraph$to[subgraphNodes])
     output$netPlot<-renderVisNetwork({
       visNetwork(visNodes, visEdges, width = "200%") %>%
-        visEdges(arrows ="to",smooth = T,color = list(color = "black",highlight = "yellow",hover = "yellow"))%>%
-        visGroups(groupname = "not in use", color = list(background ="lightblue",highlight = 'yellow', hover = "yellow")) %>%
-        visGroups(groupname = "Event", color = list(background = "lightgreen",highlight = "yellow", hover = "yellow"))%>%
-        visGroups(groupname = "Evidence", color = list(background = "pink",highlight = "yellow", hover = "yellow")) %>%
+        visEdges(arrows ="to",smooth = T,color = list(color = "grey",highlight = "black",hover = "blcak"))%>%
+        visGroups(groupname = "not in use", color = list(background = "lightblue",highlight = 'blue', hover = "blue")) %>%
+        visGroups(groupname = "Event", color = list(background = "lightgreen",highlight = "green", hover = "green"))%>%
+        visGroups(groupname = "Evidence", color = list(background = "pink",highlight = "red", hover = "red")) %>%
         visLegend(width = 0.1, position = "left")%>%
         visNodes(shape = "dot") %>%
         visOptions(highlightNearest = list(enabled =TRUE, degree = 2,hover = T, hideColor = 'rgba(200,200,200,0)'), nodesIdSelection = TRUE)%>%
@@ -303,10 +303,10 @@ shinyServer(function(input, output,session) {
                           to = NetworkGraph$to[subgraphNodes])
     output$netPlot<-renderVisNetwork({
       visNetwork(visNodes, visEdges, width = "200%") %>%
-        visEdges(arrows ="to",smooth = T,color = list(color = "black",highlight = "yellow",hover = "yellow"))%>%
-        visGroups(groupname = "not in use", color = list(background = "lightblue",highlight = 'yellow', hover = "yellow")) %>%
-        visGroups(groupname = "Event", color = list(background = "lightgreen",highlight = "yellow", hover = "yellow"))%>%
-        visGroups(groupname = "Evidence", color = list(background = "pink",highlight = "yellow", hover = "yellow")) %>%
+        visEdges(arrows ="to",smooth = T,color = list(color = "grey",highlight = "black",hover = "blcak"))%>%
+        visGroups(groupname = "not in use", color = list(background = "lightblue",highlight = 'blue', hover = "blue")) %>%
+        visGroups(groupname = "Event", color = list(background = "lightgreen",highlight = "green", hover = "green"))%>%
+        visGroups(groupname = "Evidence", color = list(background = "pink",highlight = "red", hover = "red")) %>%
         visLegend(width = 0.1, position = "left")%>%
         visNodes(shape = "dot") %>%
         visOptions(highlightNearest = list(enabled =TRUE, degree = input$degree,hover = T, hideColor = 'rgba(200,200,200,0)'), nodesIdSelection = TRUE)%>%

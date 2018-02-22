@@ -56,7 +56,8 @@ dashboardPage(skin = "blue",
                                                                                              sliderInput("degree", "chain of neighbors",
                                                                                                          min = 1, max = 5,
                                                                                                          value = 2
-                                                                                                         )
+                                                                                                         ),
+                                                                                             shiny::selectInput('graph_layout','Layout',"layout_nicely")
                                                                                              ),
                                                                                     tabPanel("Inference",
                                                                                              helpText("Select evidence to add to the model"),
