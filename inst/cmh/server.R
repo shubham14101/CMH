@@ -10,9 +10,9 @@ library('shinyalert')
 library('shinycssloaders')
 
 shinyServer(function(input, output,session) {
-  bn.hc.boot.fit = readRDS("CHILD&MATERNAL_HEALTH_RESULTS_bnfit.RData")
-  DiscreteData = readRDS("CHILD&MATERNAL_HEALTH_RESULTS_data.RData")
-  bn.hc.boot.average = readRDS("CHILD&MATERNAL_HEALTH_RESULTS_bnaverage.RData")
+  bn.hc.boot.fit = get(load("bn.fit.RData"))
+  DiscreteData = get(load("bn.data.RData"))
+  bn.hc.boot.average = get(load("bn.average.RData"))
   NetworkGraph = read.csv('bootPrunedNetwork.txt')
   nodeNames = names(bn.hc.boot.average$nodes)
   moduleData = read.csv('modularity2.csv')
