@@ -2,15 +2,21 @@ library('networkD3')
 library('rhandsontable')
 library('shiny')
 library('shinydashboard')
-#library('dplyr')
+library('dplyr')
 library('visNetwork')
 source('error.bar.R')
+library('shinyWidgets')
+library('missRanger')
+library('tools')
+library('shinyalert')
+library('shinycssloaders')
+library('shinythemes')
 
 dashboardPage(skin = "blue",
               dashboardHeader(title = "Child & Maternal Health",
-                              titleWidth = 240
+                              titleWidth = 200
                               ),
-              dashboardSidebar(width = 240,
+              dashboardSidebar(width = 200,
                                sidebarMenu(id = "sidebarMenu",
                                            menuItem("Home",
                                                     tabName = "Home",
@@ -27,6 +33,8 @@ dashboardPage(skin = "blue",
                                            )
                                ),
               dashboardBody(id ="dashboardBody",
+                            useShinyalert(),
+                            tags$script(HTML("$('body').addClass('fixed');")),
                             shinydashboard::tabItems(
                               shinydashboard::tabItem(tabName = "Home",
                                                       fluidRow(
@@ -39,6 +47,8 @@ dashboardPage(skin = "blue",
                                                       ),
                               shinydashboard::tabItem(tabName = "structure",
                                                       fluidRow(shiny::column(width = 3,
+                                                                             offset = -1,
+                                                                             style='padding:0px;margin:0px',
                                                                              tabBox(width = 12,
                                                                                     id = "control_box",
                                                                                     tabPanel("Graph",
@@ -82,13 +92,15 @@ dashboardPage(skin = "blue",
                                                                                     )
                                                                              ),
                                                       shiny::column(width = 9,
+                                                                    offset = -1,
+                                                                    style='padding:0px;margin:0px',
                                                                     tabBox(width = 12,
                                                                            id = "visula",
                                                                            tabPanel("Network Graph",
-                                                                                    visNetworkOutput("netPlot",height = "700px")
+                                                                                    withSpinner(visNetworkOutput("netPlot",height = "700px"), color= "#428bca")
                                                                                     ),
                                                                            tabPanel("Inference Plot",
-                                                                                    shiny::plotOutput("distPlot")
+                                                                                    withSpinner(shiny::plotOutput("distPlot"), color= "#428bca")
                                                                                     )
                                                                            )
                                                                     )

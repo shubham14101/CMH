@@ -6,8 +6,8 @@ Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-Depends:bnlearn,networkD3,rhandsontable,shiny,shinydashboard,dplyr,visNetwork
-Imports:bnlearn,networkD3,rhandsontable,shiny,shinydashboard,dplyr,visNetwork
+Depends:bnlearn,networkD3,rhandsontable,shiny,shinydashboard,dplyr,visNetwork, shinyalert, shinycssloaders, shinyWidgets, shinyalert, shinycssloaders, shinythemes
+Imports:bnlearn,networkD3,rhandsontable,shiny,shinydashboard,dplyr,visNetwork, shinyalert, shinycssloaders, shinyWidgets, shinyalert, shinycssloaders, shinythemes
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

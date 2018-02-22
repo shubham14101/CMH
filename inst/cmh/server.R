@@ -3,10 +3,11 @@ library('networkD3')
 library('rhandsontable')
 library('shiny')
 library('shinydashboard')
-#library('dplyr')
+library('dplyr')
 library('visNetwork')
 source('error.bar.R')
-
+library('shinyalert')
+library('shinycssloaders')
 
 shinyServer(function(input, output,session) {
   bn.hc.boot.fit = readRDS("CHILD&MATERNAL_HEALTH_RESULTS_bnfit.RData")
@@ -107,7 +108,8 @@ shinyServer(function(input, output,session) {
 
     },error = function(e){
       print("error 4")
-      output$distPlot<- renderPlot({validate("Error: in processing your request of inference.Please set an evidence node first")})
+      shinyalert("Error: in processing your request of inference.Please set an evidence node first", type = "error")
+      # output$distPlot<- renderPlot({validate("Error: in processing your request of inference.Please set an evidence node first")})
     })
 
   })
@@ -149,7 +151,8 @@ shinyServer(function(input, output,session) {
 
     },error = function(e){
       print("error 4")
-      output$distPlot<- renderPlot({validate("Error: in processing your request of inference.Please set an evidence node first")})
+      shinyalert("Error: in processing your request of inference.Please set an evidence node first", type = "error")
+      #output$distPlot<- renderPlot({validate("Error: in processing your request of inference.Please set an evidence node first")})
     })
 
   })
