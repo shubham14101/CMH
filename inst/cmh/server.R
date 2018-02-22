@@ -9,8 +9,6 @@ source('error.bar.R')
 
 
 shinyServer(function(input, output,session) {
-  print("1")
-
   bn.hc.boot.fit = readRDS("CHILD&MATERNAL_HEALTH_RESULTS_bnfit.RData")
   DiscreteData = readRDS("CHILD&MATERNAL_HEALTH_RESULTS_data.RData")
   bn.hc.boot.average = readRDS("CHILD&MATERNAL_HEALTH_RESULTS_bnaverage.RData")
