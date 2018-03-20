@@ -1,938 +1,882 @@
-*Vertices 934
+*Vertices 878
 1 "State_code.x"
-2 "District_codes_with_names.x"
-3 "HH___Main_income_source"
-4 "HH___Local_area_unit_name"
-5 "HH___Local_units_acre"
-6 "HH__c_Meals_to_workers"
-7 "HH__f_Own__Threshers"
-8 "HH___Animal_care__Primary_ID.x"
-9 "HH___Busns__Work_place.1"
-10 "HH____Govt_housing"
-11 "HH____Ration_card"
-12 "HH___Health_insurance"
-13 "HH___TV_regular_Men"
-14 "HH___TV_hrs_day_Men"
-15 "HH___Radio_regular_Women"
-16 "HH___Sugar__PDS_price"
-17 "HH___Cereal_products__homegr"
-18 "HH___Pulses__homegrown"
-19 "HH___Eggs__homegrown"
-20 "HH___Milk_products__homegr"
-21 "HH___Vegetables__homegrown"
-22 "HH___Own__Mixer_grinder"
-23 "HH___Own__Motor_cycle"
-24 "HH___Own__B_W_TV"
-25 "HH___Own__Air_cooler"
-26 "HH___Own___clothes"
-27 "HH___Own__Footwear"
-28 "HH__b_Jewelery_sold_to_pay"
-29 "HH__e_Netwk_Med_Community"
-30 "HH__f_Netwk_Med_Residence"
-31 "HH__e_Netwk_School_Community"
-32 "HH__c_Netwk_Govt_Sex"
-33 "HH__e_Netwk_Govt_Community"
-34 "HH___Member_Development_NGO"
-35 "HH___Theft"
-36 "HH___Death___Cause"
-37 "HH___Death___Age.1"
-38 "HH___Death___Cause.1"
-39 "HH___Death___Rel_to_head.2"
-40 "EH___Stratum_Number"
-41 "EH___Intvw_Language_Code"
-42 "EH___Ch__School_enrolment.1"
-43 "EH___Ch__Local_teacher.1"
-44 "EH___Ch__Biased_teacher"
-45 "EH___Ch__PTA_participation.1"
-46 "EH__b_Ch__Ever_beaten.1"
-47 "EH__d_Wed_Gift__car"
-48 "EH__g_Wed_Gift__Fridge"
-49 "EH__a_Vent_in_cooking_place"
-50 "EH___HH_electricity"
-51 "EH__b_Electricity_Payment"
-52 "EH__a_Dung_source"
-53 "EH___Coal__charcoal_use"
-54 "EH__a_Fuel_distance"
-55 "EH__b_Fuel_Coll_women"
-56 "EH__c_Fuel_Coll_men"
-57 "EH_clinicid_state"
-58 "EH__b_AIDS_Needle"
-59 "EH__d_AIDS_Transfusion"
-60 "EH__f_Child_s_wed_No_One"
-61 "EH__b_Resp_account_holder"
-62 "EH___Would_live_w_daughter"
-63 "EH___Support__daughter"
-64 "EH___Harassment_of_girls"
-65 "EH__who_else_present"
-66 "EH___Natal_fam_married_same_vill"
-67 "EH__c_Contraception_Method"
-68 "EH__a_More_children_desired"
-69 "EH__c_Time_next_birth_Husb"
-70 "EH__b_N_daughters_ideally"
-71 "EH__Others_present"
-72 "EH__c_LB_checkup_Pvt_clinic"
-73 "EH__d_LB_checkup_Gov_as_pvt"
-74 "EH__h_LB_checkup_Midwife"
-75 "EH__d_LB_checkup_Urine_Test"
-76 "EH__a_LB_prob__Night_blindness"
-77 "EH__b_LB_prob__Blurred_vision"
-78 "EH__a_LB_when_post_checkup"
-79 "EH__b_LB_Very_high_fever"
-80 "EH____LB_BCG_given"
-81 "EH___LB_st_breastfeeding"
-82 "EH__a_LB_AWC_Immun_freq"
-83 "EH__c_LB_AWC_Food"
-84 "EH__c_LB_AWC_Food_freq"
-85 "EH__f_NLB_checkup_doctor"
-86 "EH___NLB_checkup_Months"
-87 "EH__a_NLB_checkup_Weight"
-88 "EH__c_NLB_checkup_Blood"
-89 "EH____NLB_Iron_tablets"
-90 "EH__e_NLB_delivery_Other"
-91 "EH___NLB_Post_checkup"
-92 "EH____NLB_Immunization_card"
-93 "EH____NLB_Vacc_not_rec"
-94 "EH____NLB_BCG_given"
-95 "EH__b_NLB_First_polio"
-96 "EH___NLB_Breastfeeding"
-97 "EH___NLB_Brfeed_duratn"
-98 "EH___Obs__Understanding"
-99 "Imputed_age_at_first_gauna"
-100 "HH___Farm_work_days_year"
-101 "HH___Animal_care__Freq"
-102 "HH___Meals_housing_job"
-103 "HH___Old_Age_Pension_Rs"
-104 "HH___Disability_Pension_Rs"
-105 "HH___Educ__Ever_repeated"
-106 "HH___Educ__Post_nd_subj"
-107 "EH___Free_uniform"
-108 "EH__a_Diarrhoea_with_blood"
-109 "EH__a_STMorb_Treatment"
-110 "EH__a_STMorb_Who_st_treat"
-111 "EH__a_STMorb_Where_st_treat"
-112 "EH__a_STMorb_Who_nd_treat"
-113 "EH__a_STMorb_Where_nd_treat"
-114 "EH___High_BP"
-115 "EH___Difficulty_Toilet"
-116 "EH___Difficulty_Dressing"
-117 "EH___Difficulty_Speaking"
-118 "EH___Difficulty_Short_sight"
-119 "EH___Test_math_score"
-120 "PSU__village_neighborhood_code.x"
-121 "HH___Village_town_code"
-122 "EH___Tehsil_Taluka_Code"
-123 "PSU_ID__digit_unique.x"
-124 "HH___Years_in_place"
-125 "HH__f_Loan_repayment"
-126 "HH__a_Netwk_Medical"
-127 "HH___Attend_public_meeting"
-128 "HH___Solve_local_problems"
-129 "EH___Ch__Local_teacher"
-130 "EH___Ch__PTA_participation"
-131 "EH__a_Ch__Ever_praised"
-132 "EH___Marry_daughter_natal_vill"
-133 "EH___Marry_daughter_cousin"
-134 "EH__i_Wed_Gift__Pressure_cook"
-135 "EH___Household_Toilet"
-136 "EH__a_Electricity_hours"
-137 "EH___HH_chulha_type"
-138 "EH___Med_treatment_where"
-139 "EH__m_Med_treatment_Month"
-140 "EH___Belief_Male_sterilistn"
-141 "EH__c_AIDS_Mosquito_bite"
-142 "EH___Family_outing"
-143 "EH__a_Family_bank_account"
-144 "EH___Beat_leaves_no_permit"
-145 "EH__g_LB_checkup_Nurse_ANM"
-146 "EH__c_LB_delivery__Midwife"
-147 "EH__b_LB_First_polio_time"
-148 "EH___LB_Squeeze_milk"
-149 "EH__f_NLB_checkup_Internal"
-150 "EH__b_Obs__Stagnant_water"
-151 "EH__a_STMorb_Meds_in_cost"
-152 "Hsp__District_ID_Census_"
-153 "Largest__metro_areas__.x"
-154 "HH____Caste_religion_cats.x"
-155 "HH___Tehsil_taluka_code"
-156 "HH___Place_of_Origin"
-157 "HH___Educ_head_s_father_husb"
-158 "HH__b_Cash.Crop_rented_out"
-159 "HH__b_Cash.Crop_rented_in"
-160 "HH__b_Irrigation_type_"
-161 "HH__b_Irrigation_type_.1"
-162 "HH__b_Seeds_Homegrown"
-163 "HH___Busns__Work_place.2"
-164 "HH___Better_off_last__yrs"
-165 "HH__a_Ration_card_type"
-166 "HH__c_Ration_card_used"
-167 "HH__d_Ration_card_no_use"
-168 "HH___Ration_card_why_none"
-169 "HH___KISAN_credit_card"
-170 "HH___Radio_regular_Men"
-171 "HH___TV_news_regular_Men"
-172 "HH___Sugar__market_price"
-173 "HH___Kerosene__market_price"
-174 "HH___Kerosene__PDS_price"
-175 "HH___Other_cereals__homegrown"
-176 "HH___Other_cereals__price"
-177 "HH___Own__Cycle_bicycle"
-178 "HH___Own__Sewing_machine"
-179 "HH___Own__Electric_fan"
-180 "HH___Own__Chair_table"
-181 "HH___Own__Cot"
-182 "HH___Own__Pressure_cooker"
-183 "HH__a_Yrs_ago_largest_loan"
-184 "HH__d_Loan_source"
-185 "HH__a_Debt_with_shopkeeper"
-186 "HH__b_Netwk_Med_type"
-187 "HH__d_Netwk_Med_Relation"
-188 "HH__a_Netwk_School"
-189 "HH__b_Netwk_School_type"
-190 "HH__c_Netwk_School_Sex"
-191 "HH__f_Netwk_School_Residence"
-192 "HH__a_Netwk_Govt_service"
-193 "HH__b_Netwk_Govt_type"
-194 "HH___Member_Mahila_mandal"
-195 "HH___Member_Youth_Sports_Read"
-196 "HH___Member_Union_Busns"
-197 "HH___Member_Self_Help"
-198 "HH___Member_Credit_Savings"
-199 "HH___Member_Relig_Social"
-200 "HH___Member_Caste_Assoc"
-201 "HH___Member_Cooperative"
-202 "HH___Voted__election"
-203 "HH___Official_in_panchayat"
-204 "HH___Conflict_in_village"
-205 "HH___Conflict_among_jatis"
-206 "HH___Attack_threat"
-207 "HH___Harassment_of_girls"
-208 "HH___Confidence__Pols"
-209 "HH___Confidence__Military"
-210 "HH___Confidence__Police"
-211 "HH___Confidence__State_govt"
-212 "HH___Confidence__Newspapers"
-213 "HH___Confidence__Panchayats"
-214 "HH___Confidence__Schools"
-215 "HH___Confidence__Medical"
-216 "HH___Confidence__Courts"
-217 "HH___Confidence__Banks"
-218 "HH___Death___Sex"
-219 "HH___Death___Rel_to_head.1"
-220 "HH___Death___Sex.1"
-221 "EH___Ch__School_enrolment"
-222 "EH___Ch__Biased_Teacher"
-223 "EH__b_Ch__Ever_beaten"
-224 "EH___Ch__Average_student.1"
-225 "EH__a_Ch__Ever_praised.1"
-226 "EH__a_Wed_Gift__gold"
-227 "EH__b_Wed_Gift__silver"
-228 "EH__c_Wed_Gift__land"
-229 "EH__e_Wed_Gift__scooter"
-230 "EH__f_Wed_Gift__TV"
-231 "EH__h_Wed_Gift__Furniture"
-232 "EH__j_Wed_Gift__Utensils"
-233 "EH__k_Wed_Gift__Mixer_Grinder"
-234 "EH__l_Wed_Gift__Bedding"
-235 "EH__m_Wed_Gift__Watch"
-236 "EH__n_Wed_Gift__Bicycle"
-237 "EH__o_Wed_Gift__Sewing_m_c"
-238 "EH__p_Wed_Gift__Livestock"
-239 "EH__r_Wed_Gift__Cash"
-240 "EH___Water_source__usual"
-241 "EH___Water_within_house"
-242 "EH___Water_supply_hours"
-243 "EH___Same_water_source_summer"
-244 "EH___Water_source_summer"
-245 "EH___Water_in_house_summer"
-246 "EH___Water_Avail__usual"
-247 "EH___Water_Avail__Summer"
-248 "EH___Purify_water"
-249 "EH__a_Drinking_water_storage"
-250 "EH__b_Drinking_water_pouring"
-251 "EH___Cooking_place"
-252 "EH___Access_to_public_toilet"
-253 "EH__a_Use_in_handwash"
-254 "EH___Hours_burning_stove"
-255 "EH___Firewood_use"
-256 "EH__a_Firewood_source"
-257 "EH___Dung_use"
-258 "EH___Crop_residue_use"
-259 "EH___Kerosene_use"
-260 "EH__a_Kerosene_source"
-261 "EH__a_LPG_source"
-262 "EH__a_Coal__charcoal_source"
-263 "EH___Med_treatment_who"
-264 "EH___Illness_type"
-265 "EH___Med_treatment_sex"
-266 "EH___Doctor_s_behaviour"
-267 "EH___Med_treat_accompanied"
-268 "EH___EWoman__general_health"
-269 "EH___Belief_Daily_milk"
-270 "EH___Belief_Diarrhea"
-271 "EH___Belief_Pregnancy"
-272 "EH__e_AIDS_Food_sharing"
-273 "EH___AIDS_Known_person"
-274 "EH__b_Cooking_Husband"
-275 "EH__e_Cooking_Other"
-276 "EH__f_Cooking_No_One"
-277 "EH__a_Purchase_Respondent"
-278 "EH__d_N_children_Sr_female"
-279 "EH__a_Child_ill_Respondent"
-280 "EH__c_Child_ill_Sr_male"
-281 "EH__e_Child_s_wed_Other"
-282 "EH__e_Perm_others_health_centre"
-283 "EH__f_Health_centre_alone"
-284 "EH__a_Permission_Friend_home"
-285 "EH__f_Visit_Friend_home_alone"
-286 "EH__a_Permission_Kirana_shop"
-287 "EH__f_Visit_Kirana_shop_alone"
-288 "EH___Purdah_Practice"
-289 "EH__s_Shopping_Respondent"
-290 "EH__w_Shopping_Adult_women"
-291 "EH__c_Shopping_Children"
-292 "EH__s_Homework_Respondent"
-293 "EH__m_Homework_Adult_men"
-294 "EH__c_Homework_Children"
-295 "EH___Family_meal_taking"
-296 "EH___House_papers__Woman"
-297 "EH___Girls_educatn_equal"
-298 "EH__a_Discuss__Work_farm"
-299 "EH__b_Discuss__Expenditure"
-300 "EH__c_Discuss__Politics"
-301 "EH___Natal_family_visit"
-302 "EH___Natal_family_nearby"
-303 "EH___Beat_if_no_dowry"
-304 "EH___Beat_if_House_neglect"
-305 "EH___Beat_if_bad_cooking"
-306 "EH___Beat_if_extramarital"
-307 "EH__d_Menarche_after_wed"
-308 "EH___Knew_husb_before_wed"
-309 "EH__a_Marriage_choice"
-310 "EH__b_Choice_R_say"
-311 "EH___Husband_same_vill"
-312 "EH___Husband_same_caste"
-313 "EH___Live_after_marriage"
-314 "EH___Econ_stat_husb_fam"
-315 "EH___st_marriage_Status"
-316 "EH__a_Contraceptive_usage"
-317 "EH__b_Contraception_Method"
-318 "EH__c_Time_next_childbirth"
-319 "EH__a_N_sons_ideally"
-320 "EH__e_LB_checkup_Home"
-321 "EH__f_LB_checkup_doctor"
-322 "EH___LB_Visit_by_pubhealth"
-323 "EH___LB_checkup_Months"
-324 "EH__a_LB_checkup_Weight"
-325 "EH__b_LB_checkup_BP"
-326 "EH__c_LB_checkup_Blood_Test"
-327 "EH__f_LB_checkup_Internal"
-328 "EH__h_LB_checkup_Amnio"
-329 "EH___LB_Sex_determination"
-330 "EH__d_LB_prob__Fatigue"
-331 "EH__e_LB_prob__Anaemia"
-332 "EH___LB_Iron_tablets"
-333 "EH___LB_N_TT_injections"
-334 "EH___LB_Pre_delivery_home"
-335 "EH___LB_Place_of_delivery"
-336 "EH__b_LB_delivery__Nurse"
-337 "EH__e_LB_delivery__Other"
-338 "EH___LB_Size_of_child"
-339 "EH___LB_Post_natal_checkup"
-340 "EH__a_LB_Vaginal_bleeding"
-341 "EH____LB_Immunization_card"
-342 "EH____LB_Vacc_not_recorded"
-343 "EH____LB_Vacc_No_card"
-344 "EH____LB_._DPT_given"
-345 "EH____LB_Vaccine_Centre"
-346 "EH___LB_Breastfeeding_dur"
-347 "EH__g_NLB_checkup_Nurse"
-348 "EH___NLB_Health_worker"
-349 "EH__e_NLB_checkup_Abdomen"
-350 "EH__d_NLB_prob_Fatigue"
-351 "EH__c_NLB_delivery_Midwife"
-352 "EH____Obs__House_Type"
-353 "EH__a_Obs__House_Excrement"
-354 "EH___Obs__Animals_kept_in"
-355 "EH___Obs__Wall_type"
-356 "EH___Obs__Roof_type"
-357 "EH___Obs__Floor_type"
-358 "EH___Obs__Purpose"
-359 "EH___Obs__Knows_expenditure"
-360 "EH___Obs__Confidence"
-361 "HH___NGOs_Rs"
-362 "HH___Educ__ndary_class"
-363 "HH___Educ__Degree_class"
-364 "EH___Year_English_taught"
-365 "EH___School_Hrs_week"
-366 "EH___Days_month_absent"
-367 "EH___School_fees_by_govt"
-368 "EH___Scholarship"
-369 "EH__a_STMorb_Days_ill"
-370 "EH__a_Cough"
-371 "EH__a_Diarrhoea"
-372 "EH__a_Liquid_intake_if_Diarrhoea"
-373 "EH___Other_long_term"
-374 "EH___MJmorb_Days_Unable"
-375 "EH___MJmorb_Meds_in_cost"
-376 "EH___Difficulty_Walking_km"
-377 "EH___Difficulty_Hearing"
-378 "EH___Difficulty_Far_sight"
-379 "EH___Tobacco__smoke"
-380 "EH___Tobacco__chew"
-381 "EH___Alcohol__drink"
-382 "EH___Test_teacher_not_nice"
-383 "EH__b_Coal__charcoal_Rs"
-384 "District_ID_Census_"
-385 "Census___village_town.x"
-386 "HH___Occ_head_s_father_husb"
-387 "HH__a_Govt_housing_Built_Rs"
-388 "HH___Kerosene__PDS_lts"
-389 "HH___House_own_rent"
-390 "EH_sch_Ch__School_code"
-391 "EH__b_Firewood_Rs"
-392 "EH__a_AIDS_Sex"
-393 "Largest__metro_areas__.y"
-394 "HH___Caste_category"
-395 "HH___Religion"
-396 "HH_EH__hh_goods_._housing.x"
-397 "HH_ed_Highest_adult____educ.x"
-398 "HH___LIC_Life_insurance"
-399 "HH___TV_regular_Women"
-400 "HH___Own__Colour_TV"
-401 "HH___Own__Clock_watch"
-402 "HH___Own__Telephone"
-403 "HH___Own__Cell_phone"
-404 "HH___Own__Refrigerator"
-405 "HH___Own__Car"
-406 "HH___Own__Washing_machine"
-407 "HH___Own__Computer"
-408 "HH___Own__Credit_card"
-409 "EH_sch_Ch__School_code.1"
-410 "EH___LPG_use"
-411 "HH___Busns__days_yr"
-412 "HH___NGOs_ID"
-413 "HH_ed_Any_adult_in_hh_literate"
-414 "HH___Educ__Literacy"
-415 "HH_ed_Highest_female___ed.x"
-416 "HH_ed_Highest_male___ed.x"
-417 "HH___Newspaper_regular_Men"
-418 "HH___Educ__Completed_Years"
-419 "HH___Newspaper_regular_Women"
-420 "EH___AIDS_Awareness"
-421 "HouseHold_question_pg___NHouseHold_question_any_work"
-422 "HouseHold_question__pg_Q__NHouseHold_question_family_farm"
-423 "HouseHold_question__pg_Q__NHouseHold_question_animal_care"
-424 "HouseHold_question__pg_Q__NHouseHold_question_agricultural_wage"
-425 "HH___Any_work"
-426 "HH____HH_ag_wages"
-427 "HouseHold_question__pg_Q__NHouseHold_question_nonagricultural_wage"
-428 "HH____HH_nonagwages"
-429 "HH___N_in_HH"
-430 "HH___N___in_HH"
-431 "HH___N___in_HH.2"
-432 "HH___N_married_women_in_HH"
-433 "HH__b_Ration_card_N_listed"
-434 "HH___Vegetables__kg"
-435 "HH___N_in_hh"
-436 "HH___Farm_work_Primary"
-437 "HH___Busns"
-438 "HH___N___in_hh"
-439 "HH___N___in_HH.1"
-440 "HH___N___in_hh.1"
-441 "HH___Edible_oil__Rs"
-442 "HH___Edible_oil__Rs.1"
-443 "HH___N___in_hh.2"
-444 "HH___N_married_men_in_HH"
-445 "HH___N_married_women_in_hh"
-446 "HH___Busns.1"
-447 "HH___N_married_men_in_hh"
-448 "Below_poverty_line.x"
-449 "HH__a_Busns__Industry"
-450 "EH_psu_Ch__School_PSU"
-451 "HH___Rural_Urban_slum"
-452 "EH___Rural_Urban_Slum"
-453 "HH__c_Loan_purpose"
-454 "HH__d_Netwk_Govt_Relation"
-455 "HH_tot_income_quint_.neg"
-456 "HH___Ag_wage_labour"
-457 "HH___Occupation__job"
-458 "HH___Type_of_origin_place"
-459 "HH___Any_owned_or_cultivated"
-460 "HH___Rice__homegrown"
-461 "HH___Wheat__homegrown"
-462 "HH___Area_owned"
-463 "HH__a_Rented_in_farmland"
-464 "HH___Widows_Pension_Rs__yr"
-465 "HH__c_Rs_land_rented_out"
-466 "HH__e_Crop_Rs_land_rented_out"
-467 "HH___Crop_residue_sold"
-468 "HH___ID_farm_decision_maker"
-469 "HH__i_Rent_out_equipt_Rs"
-470 "HH___Sweeteners__homegrown"
-471 "HH___Edible_oil__homegrown"
-472 "HH___Milk__homegrown"
-473 "EH__a_Crop_residue_source"
-474 "HH____Family_farm_work"
-475 "HH___Area_owned_._cultivated"
-476 "HH__a_Area_rented_out"
-477 "EH___Cancer"
-478 "HH__c_Rs_paid_land_rented_in"
-479 "HH__net_ag_rental_income"
-480 "HH__a_Hired_farm_labour_days"
-481 "HH__b_Hired_farm_labour_Rs"
-482 "HH___Irrigation_water_Rs"
-483 "HH___Pesticides_Rs"
-484 "HH_total_expenses_Editor_Check"
-485 "HH___Hired_Equipt_Animals_Rs"
-486 "HH___Personal_care_Rs"
-487 "HH___Ag_loan_repayment_Rs"
-488 "HH___Farm_miscellaneous_Rs"
-489 "HH___Fertilizers_Rs"
-490 "HH__a_Own__Tubewells"
-491 "HH__b_Own__Electric_Pumps"
-492 "HH__c_Own__Diesel_pumps"
-493 "HH__d_Own__Bullock_carts"
-494 "HH__e_Own__Tractors"
+2 "PSU_ID__digit_unique.x"
+3 "HouseHold_question__pg_Q__NHouseHold_question_animal_care"
+4 "HH___Rural_Urban_slum"
+5 "HH___Local_area_unit_name"
+6 "HH__c_Rs_land_rented_out"
+7 "HH__a_Own__Tubewells"
+8 "HH__c_Own__Diesel_pumps"
+9 "HH__f_Own__Threshers"
+10 "HH__a_Busns__Industry.1"
+11 "HH___Health_insurance"
+12 "HH___LIC_Life_insurance"
+13 "HH___Kerosene__PDS_lts"
+14 "HH___Cereal_products__kg"
+15 "HH___Pulses__Rs.1"
+16 "HH___Meat__kg"
+17 "HH___Meat__homegrown"
+18 "HH___Sweeteners__kg"
+19 "HH___Eggs__dozens"
+20 "HH___Milk__lts"
+21 "HH___Milk__Rs.1"
+22 "HH___Milk_products__Rs.1"
+23 "HH___Vegetables__Rs.1"
+24 "HH___Personal_care_Rs"
+25 "HH___House_Other_rent_Rs"
+26 "HH___School_books_Rs"
+27 "HH___Own__Mixer_grinder"
+28 "HH___Own__Motor_cycle"
+29 "HH___Own__B_W_TV"
+30 "HH___Own__Air_cooler"
+31 "HH___Own__Refrigerator"
+32 "HH___Own___clothes"
+33 "HH__e_Loan_monthly_rate"
+34 "HH__e_Netwk_School_Community"
+35 "HH__c_Netwk_Govt_Sex"
+36 "HH__e_Netwk_Govt_Community"
+37 "HH___Member_Development_NGO"
+38 "HH___Theft"
+39 "HH___Death___Cause"
+40 "HH___Death___Age.1"
+41 "HH___Death___Cause.1"
+42 "HH___Death___Rel_to_head.2"
+43 "EH___Intvw_Language_Code"
+44 "EH___Ch__Start_Age_in_years"
+45 "EH___Ch__Faculty_attendance"
+46 "EH_psu_Ch__School_PSU"
+47 "EH___Ch__School_enrolment.1"
+48 "EH___Ch__Local_teacher.1"
+49 "EH___Ch__Biased_teacher"
+50 "EH___Ch__PTA_participation.1"
+51 "EH___Ch__._teacher_discuss.1"
+52 "EH__b_Ch__Ever_beaten.1"
+53 "EH__b_Boy_s_wed_exp_upper"
+54 "EH__d_Wed_Gift__car"
+55 "EH__g_Wed_Gift__Fridge"
+56 "EH___Household_servant"
+57 "EH__b_Electricity_Payment"
+58 "EH__c_Electricity_Rs"
+59 "EH___Coal__charcoal_use"
+60 "EH_clinicid_state"
+61 "EH___EWoman__general_health"
+62 "EH__b_AIDS_Needle"
+63 "EH__d_AIDS_Transfusion"
+64 "EH__e_Cooking_Other"
+65 "EH__a_N_children_Respondent"
+66 "EH__c_N_children_Sr_male"
+67 "EH__a_Child_ill_Respondent"
+68 "EH__a_Permission_health_centre"
+69 "EH___Cash_in_hand"
+70 "EH___Support__daughter"
+71 "EH__a_Age_at_marriage"
+72 "EH___Natal_fam_married_same_vill"
+73 "EH___Econ_stat_husb_fam"
+74 "EH___Husband__N_sisters"
+75 "EH__a_Husb_N_brothers"
+76 "EH__b_N_miscarriages"
+77 "EH__c_N_spontaneous_miscarr"
+78 "EH__Others_present"
+79 "EH__h_LB_checkup_Midwife"
+80 "EH__b_LB_checkup_BP"
+81 "EH__f_LB_checkup_Internal"
+82 "EH__h_LB_checkup_Amnio"
+83 "EH__b_LB_prob__Blurred_vision"
+84 "EH__f_LB_prob__Bleeding"
+85 "EH___LB_Pre_delivery_home"
+86 "EH__a_LB_when_post_checkup"
+87 "EH__b_LB_Very_high_fever"
+88 "EH____LB_Vacc_No_card"
+89 "EH__a_LB_Polio_frequency"
+90 "EH____LB_mos__Vitamin_A"
+91 "EH__a_LB_AWC_Immun_freq"
+92 "EH__c_LB_AWC_Food"
+93 "EH__c_LB_AWC_Food_freq"
+94 "EH__b_NLB_Survival.1"
+95 "EH__f_NLB_checkup_doctor"
+96 "EH__e_NLB_checkup_Abdomen"
+97 "EH____NLB_Sex_determine"
+98 "EH__e_NLB_prob_Anaemia"
+99 "EH__c_NLB_delivery_Midwife"
+100 "EH__e_NLB_delivery_Other"
+101 "EH____NLB_Size_of_child"
+102 "EH____NLB_Immunization_card"
+103 "EH____NLB_Vacc_not_rec"
+104 "EH____NLB_Vacc_No_card"
+105 "EH___NLB_Breastfeeding"
+106 "EH___Obs__Understanding"
+107 "Imputed_age_at_gauna"
+108 "Largest__metro_areas__.y"
+109 "HH___Animal_care__Freq"
+110 "HH___Work_hrs_day_job"
+111 "HH___Busns__days_yr.2"
+112 "HH___Busns__hours_day.2"
+113 "HH___Old_Age_Pension_Rs"
+114 "HH___Maternity_Benefit_Rs"
+115 "HH___Disability_Pension_Rs"
+116 "HH___Annapurna_Rs"
+117 "HH___Other_govt_Rs"
+118 "HH___Educ__Ever_repeated"
+119 "HH___Educ__College_voc"
+120 "EH___Mid_day_meal"
+121 "EH___Free_uniform"
+122 "EH___Books_uniform_bus_Rs"
+123 "EH___Pvt_tuition_Rs"
+124 "EH__a_Diarrhoea_with_blood"
+125 "EH__a_STMorb_Days_Unable"
+126 "EH__a_STMorb_Who_st_treat"
+127 "EH__a_STMorb_Where_st_treat"
+128 "EH__a_STMorb_Who_nd_treat"
+129 "EH__a_STMorb_Where_nd_treat"
+130 "EH___MJmorb_Days_hosp"
+131 "EH___Difficulty_Dressing"
+132 "EH___Difficulty_Hearing"
+133 "EH___Difficulty_Short_sight"
+134 "EH___Test_reading_language"
+135 "PSU__village_neighborhood_code.x"
+136 "EH___Stratum_Number"
+137 "HH__a_Milk_._eggs_Rs"
+138 "EH__d_Child_ill_Sr_female"
+139 "EH___Husband_blood_rel"
+140 "EH__c_LB_checkup_Blood_Test"
+141 "EH__b_LB_AWC_Checkup_freq"
+142 "HH___Educ__Post_nd_subj"
+143 "District_codes_with_names.x"
+144 "Census___village_town.x"
+145 "Below_poverty_line.x"
+146 "HH___Educ_head_s_father_husb"
+147 "HH__d_Crop_._land_rented_out"
+148 "HH__b_Cash.Crop_rented_in"
+149 "HH__c_Meals_to_workers"
+150 "HH__b_Seeds_Homegrown"
+151 "HH__c_Draft_animals"
+152 "HH__g_Other"
+153 "HH__b_Busns__Occupation.1"
+154 "HH___Busns__Work_place.2"
+155 "HH___Better_off_last__yrs"
+156 "HH__a_Ration_card_type"
+157 "HH__c_Ration_card_used"
+158 "HH___KISAN_credit_card"
+159 "HH___TV_regular_Men"
+160 "HH___Radio_regular_Women"
+161 "HH___Sugar__kg"
+162 "HH___Other_cereals__kg"
+163 "HH___Cereal_products__Rs"
+164 "HH___Pulses__Rs"
+165 "HH___Meat__Rs"
+166 "HH___Sweeteners__Rs"
+167 "HH___Edible_oil__Rs"
+168 "HH___Eggs__homegrown"
+169 "HH___Milk__Rs"
+170 "HH___Milk__homegrown"
+171 "HH___Vegetables__kg"
+172 "HH___Vegetables__homegrown"
+173 "HH___Salt_spices_Rs"
+174 "HH___Other_Food_Rs"
+175 "HH___Eating_out_Rs"
+176 "HH___Fuel_Light_Rs"
+177 "HH___HH_items_Rs"
+178 "HH___Clothing_bedding_Rs"
+179 "HH___Own__Cycle_bicycle"
+180 "HH___Own__Sewing_machine"
+181 "HH___Own__Electric_fan"
+182 "HH___Own__Chair_table"
+183 "HH___Own__Cot"
+184 "HH___Own__Pressure_cooker"
+185 "HH__a_Netwk_Medical"
+186 "HH__a_Netwk_School"
+187 "HH__a_Netwk_Govt_service"
+188 "HH___Death___Sex"
+189 "HH___Death___Sex.1"
+190 "EH___Tehsil_Taluka_Code"
+191 "EH___Ch__School_enrolment"
+192 "EH___Ch__PTA_participation"
+193 "EH__a_Ch__Ever_praised"
+194 "EH___Ch__Start_Age_in_years.1"
+195 "EH___Water_within_house"
+196 "EH___Water_supply_hours"
+197 "EH__b_Get_Water_men"
+198 "EH__c_Get_Water_girls"
+199 "EH___Number_of_rooms"
+200 "EH___Cooking_place"
+201 "EH___Household_Toilet"
+202 "EH__a_Use_in_handwash"
+203 "EH___Hours_burning_stove"
+204 "EH___HH_chulha_type"
+205 "EH___Firewood_use"
+206 "EH__a_Firewood_source"
+207 "EH__b_Dung_Rs"
+208 "EH__b_Fuel_Coll_women"
+209 "EH__c_Fuel_Coll_men"
+210 "EH___Med_treatment_sex"
+211 "EH___Belief_Male_sterilistn"
+212 "EH__e_AIDS_Food_sharing"
+213 "EH__b_Cooking_Husband"
+214 "EH__d_Purchase_Sr_female"
+215 "EH__d_N_children_Sr_female"
+216 "EH__c_Child_ill_Sr_male"
+217 "EH__a_Child_s_wed_R"
+218 "EH__d_Child_s_wed_Sr_female"
+219 "EH__f_Child_s_wed_No_One"
+220 "EH__f_Health_centre_alone"
+221 "EH__a_Permission_Friend_home"
+222 "EH__a_Permission_Kirana_shop"
+223 "EH__w_Shopping_Adult_women"
+224 "EH__s_Homework_Respondent"
+225 "EH__a_Family_bank_account"
+226 "EH___House_papers__Woman"
+227 "EH___st_marriage_Status"
+228 "EH__c_Time_next_childbirth"
+229 "EH___LB_Visit_by_pubhealth"
+230 "EH___LB_N_checkups"
+231 "EH__a_LB_checkup_Weight"
+232 "EH___LB_Sex_determination"
+233 "EH__c_LB_delivery__Midwife"
+234 "EH__d_LB_delivery__Friend"
+235 "EH___LB_Size_of_child"
+236 "EH___LB_Post_natal_checkup"
+237 "EH__a_LB_Vaginal_bleeding"
+238 "EH____LB_Immunization_card"
+239 "EH____LB_Vaccine_Centre"
+240 "EH___LB_st_breastfeeding"
+241 "EH___LB_Breastfeeding_dur"
+242 "EH__a_LB_Age_at_diet_supp"
+243 "EH__b_LB_Age_at_Solid_food"
+244 "EH___NLB_checkup_Months"
+245 "EH__f_NLB_checkup_Internal"
+246 "EH__d_NLB_prob_Fatigue"
+247 "EH___NLB_N_TT_injections"
+248 "EH__a_NLB_post_check_Days"
+249 "EH____NLB_._DPT"
+250 "EH__a_NLB_._Polio"
+251 "EH__b_NLB_First_polio"
+252 "EH____NLB_mos_Vit_A"
+253 "EH___NLB_Brfeed_duratn"
+254 "EH__b_Obs__Stagnant_water"
+255 "EH___Obs__Animals_kept_in"
+256 "EH___Obs__Wall_type"
+257 "EH___Obs__Floor_type"
+258 "EH___Obs__Clarity"
+259 "HH___Farm_work_hours_day"
+260 "HH___Widows_Pension_Rs__yr"
+261 "HH___Educ__ndary_class"
+262 "EH___Year_English_taught"
+263 "EH___School_Hrs_week"
+264 "EH___Homework_Hrs_week"
+265 "EH___Pvt_Tuition_Hrs_week"
+266 "EH___School_fees_by_govt"
+267 "EH___Scholarship"
+268 "EH__a_STMorb_Days_ill"
+269 "EH__a_ORS_given_if_Diarrhoea"
+270 "EH___Other_long_term"
+271 "EH___MJmorb_Cost_Medicine"
+272 "EH___Difficulty_Far_sight"
+273 "EH___Tobacco__smoke"
+274 "EH___Alcohol__drink"
+275 "Hsp__District_ID_Census_"
+276 "District_ID_Census_"
+277 "Design_Weights_using__Districts"
+278 "HH___Tehsil_taluka_code"
+279 "HH___Main_income_source"
+280 "HH___Years_in_place"
+281 "HH____Govt_housing"
+282 "HH___Telephone_Rs"
+283 "EH___Ch__Local_teacher"
+284 "EH___Water_source__usual"
+285 "EH__a_Time_to_summer_water"
+286 "EH___Dung_use"
+287 "EH___Med_treatment_where"
+288 "HH___NGOs_ID"
+289 "Largest__metro_areas__.x"
+290 "HH___Monthly_consumption_per_capita.x"
+291 "HH___Medical_in_patient_Rs"
+292 "HH___Furniture_fixtures_Rs"
+293 "HH___HH_appliances_Rs"
+294 "HH___Jewellery_Rs"
+295 "HH___Transport_equipt_Rs"
+296 "HH___Repair_maintenance_Rs"
+297 "HH___Social_functions_Rs"
+298 "HH____Caste_religion_cats.x"
+299 "HH___Caste_category"
+300 "HH___Religion"
+301 "HH_EH__hh_goods_._housing.x"
+302 "HH___Busns__Work_place.1"
+303 "HH____Inc__renting_property"
+304 "HH___Newspaper_regular_Men"
+305 "HH___TV_regular_Women"
+306 "HH___TV_hrs_day_Women"
+307 "HH___Own__Telephone"
+308 "HH___Own__Cell_phone"
+309 "HH___Own__Car"
+310 "HH___Own__Credit_card"
+311 "HH___Own__Footwear"
+312 "HH___Death___Age"
+313 "EH___Husb_Marriage__"
+314 "Imputed_age_at_first_gauna"
+315 "EH___MJmorb_Cost_Dr_hosp"
+316 "EH___Anthropometry_Weight_st"
+317 "HH_ed_Any_adult_in_hh_literate"
+318 "HH___Educ__Literacy"
+319 "HH_ed_Highest_adult____educ.x"
+320 "HH_ed_Highest_male___ed.x"
+321 "HH___Educ__Completed_Years"
+322 "HH_ed_Highest_female___ed.x"
+323 "HH___Newspaper_regular_Women"
+324 "EH___EWoman__Education"
+325 "EH__a_Husb_sisters_educ"
+326 "HouseHold_question_pg___NHouseHold_question_any_work"
+327 "HouseHold_question__pg_Q__NHouseHold_question_family_farm"
+328 "HouseHold_question__pg_Q__NHouseHold_question_nonagricultural_wage"
+329 "HouseHold_question__pg_Q__NHouseHold_question_salaried"
+330 "HH___Any_work"
+331 "HH____Family_farm_work"
+332 "HH____Animal_care"
+333 "HH___Animal_care__Primary_ID.x"
+334 "HouseHold_question__pg_Q__NHouseHold_question_agricultural_wage"
+335 "HH____HH_ag_wages"
+336 "HH___Ag_wage_labour"
+337 "HouseHold_question__pg_Q__NHouseHold_question_family_business"
+338 "HH__a_Busns__type.1"
+339 "HH___N_in_HH"
+340 "HH___N_married_women_in_HH"
+341 "HH__b_Ration_card_N_listed"
+342 "HH___Medical_out_patient_Rs"
+343 "EH__a_Obs__respondent_ID"
+344 "HH___N_in_hh"
+345 "HH___Farm_work_Primary"
+346 "HH___Busns"
+347 "HH___Busns.2"
+348 "EH___ID_Code"
+349 "EH___Test_ID"
+350 "HH___N___in_HH"
+351 "HH___TV_regular_Kids"
+352 "EH___Ch__Code"
+353 "EH___EWoman__N_children"
+354 "EH__a_Birth_ID__LB"
+355 "EH__b_NLB_Survival"
+356 "HH___N___in_hh"
+357 "HH___N___in_HH.1"
+358 "HH___N___in_HH.2"
+359 "HH___School_Rs"
+360 "EH___EWoman__Age"
+361 "HH___N___in_hh.1"
+362 "HH___Educ__Enrolled_now"
+363 "HH___N_married_men_in_HH"
+364 "HH___N___in_hh.2"
+365 "HH___N_married_women_in_hh"
+366 "HH___N_married_men_in_hh"
+367 "HH___Village_town_code"
+368 "EH___Rural_Urban_Slum"
+369 "HH___Occ_head_s_father_husb"
+370 "HH__b_Busns__Occupation"
+371 "HH___Busns__Net_income"
+372 "HH__a_Inc__Govt_pension"
+373 "HH__c_Loan_purpose"
+374 "HH__crop_net_income"
+375 "HH____hh_nonag_wages"
+376 "HH___Occupation__job"
+377 "HH___Working_days_job"
+378 "HH___Busns__days_yr"
+379 "HH___Type_of_origin_place"
+380 "HH___House_own_rent"
+381 "HH___Occ_name_head_s_fa_husb"
+382 "HH___Rice__homegrown"
+383 "HH___Wheat__homegrown"
+384 "HH___Other_cereals__homegrown"
+385 "HH___Local_units_acre"
+386 "HH__a_Area_rented_out"
+387 "HH__c_Land_irrigated"
+388 "HH___Any_owned_or_cultivated"
+389 "HH___Crop_residue_sold"
+390 "HH__b_Hired_farm_labour_Rs"
+391 "HH___Irrigation_water_Rs"
+392 "HH___ID_farm_decision_maker"
+393 "HH__b_Feed_Home_residue"
+394 "HH___Sweeteners__homegrown"
+395 "HH__net_ag_rental_income"
+396 "HH___Farm_work_days_year"
+397 "HH____Work_hrs_yr_tot"
+398 "EH___School_distance__Km_"
+399 "HH___Area_owned"
+400 "HH___Area_owned_._cultivated"
+401 "HH_total_expenses_Editor_Check"
+402 "HH___Busns__Other_expenses.1"
+403 "HH__b_Crop_residue_own_use"
+404 "HH___Hired_Equipt_Animals_Rs"
+405 "HH__c_Rs_paid_land_rented_in"
+406 "HH___Seeds_Rs"
+407 "HH___Ag_loan_repayment_Rs"
+408 "HH___Farm_miscellaneous_Rs"
+409 "HH__b_Own__Electric_Pumps"
+410 "EH___Ch__Fair_teacher"
+411 "HH___Other_personal_Rs"
+412 "HH__d_Own__Bullock_carts"
+413 "HH__b_Milch_buffalos"
+414 "HH____Buy_livestock_Rs"
+415 "HH__animal_net_inc"
+416 "HH__d_Goats"
+417 "HH__e_Sheep"
+418 "HH__b_Chicken_Livestock_Rs"
+419 "HH____Feed_Home_grain"
+420 "HH__c_Feed_Purchased"
+421 "HH__a_Busns__Industry"
+422 "HH___Rice__Rs"
+423 "HH____HH_wage_._salary"
+424 "HH____Net_business_inc_hh"
+425 "HH___Ann_earnings_tot"
+426 "HH___hourly_wage_tot"
+427 "HH___Bonus_all_jobs"
+428 "HH___Busns__Gross_receipts"
+429 "HH___Busns__Work_place"
+430 "HH___Busns__Other_expenses"
+431 "HH___Busns__Paid_workers"
+432 "HH__b_Busns__Occupation.2"
+433 "HH___Family_business_work"
+434 "HH___Busns__hours_day"
+435 "HH__a_Busns__Industry.2"
+436 "HH___Busns__Paid_workers.1"
+437 "HH___Busns__Net_income.1"
+438 "HH___Busns__Gross_receipts.1"
+439 "HH___Busns__Paid_workers.2"
+440 "HH___Services_servants_Rs"
+441 "HH___Own__Generator_set"
+442 "HH___Own__Washing_machine"
+443 "HH___Own__Computer"
+444 "HH__b_Loan_largest_amount"
+445 "HH_Total_income"
+446 "HH___Death___Age.2"
+447 "HH___Busns__Net_income.2"
+448 "HH___Busns__Gross_Receipts"
+449 "HH___Busns__Other_expenses.2"
+450 "HH___Insurance_premiums_Rs"
+451 "HH___Inc__other_source_Rs"
+452 "HH__e_Crop_Rs_land_rented_out"
+453 "HH____Inc__interest"
+454 "HouseHold_question_pg____property__pensions_etc_"
+455 "HH____property_inc__pensions_etc_"
+456 "HH____property__pensions_etc_"
+457 "HH__b_Inc__Pvt_pension"
+458 "HH__a_Govt_housing_Built_Rs"
+459 "HH__b_Govt_housing_Rs"
+460 "HH__c_Govt_housing_Materials_Rs"
+461 "HH__e_Govt_housing_chulha_Rs"
+462 "HH__d_Govt_housing_latrines_Rs"
+463 "HH___Inc__other_source_name"
+464 "HH___Kerosene__Rs.1"
+465 "HH____Ration_card"
+466 "HH___Radio_regular_Men"
+467 "HH___Radio_regular_Kids"
+468 "HH___Newspaper_regular_Kids"
+469 "HH___TV_hrs_day_Men"
+470 "HH___TV_news_regular_Men"
+471 "HH___Own__Colour_TV"
+472 "HH___TV_hrs_day_Kids"
+473 "HH___TV_news_regular_Women"
+474 "HH___TV_news_regular_Kids"
+475 "HH___Rice__kg"
+476 "HH___Sugar__homegrown"
+477 "HH___Kerosene__Rs"
+478 "HH___Kerosene__Lts"
+479 "EH__b_Kerosene_Rs"
+480 "HH___Other_cereals__Rs"
+481 "HH___Other_cereals__price"
+482 "EH___Test_math_language"
+483 "HH___Cereal_products__Rs.1"
+484 "HH___Sweeteners__Rs.1"
+485 "HH___Pulses__kg"
+486 "EH___Cataract"
+487 "HH___Meat__Rs.1"
+488 "HH___Eggs__Rs"
+489 "HH___Meat__price"
+490 "HH___Sweeteners__price"
+491 "HH___Edible_oil__lts"
+492 "HH___Edible_oil__Rs.1"
+493 "HH___Edible_oil__price"
+494 "HH___Eggs__Rs.1"
 495 "HH__a_Milch_cows"
-496 "HH__a_Milk_._eggs_Rs"
-497 "HH__d_Goats"
-498 "HH__e_Sheep"
-499 "HH__c_Feed_Purchased"
-500 "HH__b_Chicken_Livestock_Rs"
-501 "HH__animal_net_inc"
-502 "HH__b_Feed_Home_residue"
-503 "HH__b_Crop_residue_own_use"
-504 "HH__c_Draft_animals"
-505 "HouseHold_question__pg_Q__NHouseHold_question_family_business"
-506 "HH__b_Busns__Occupation"
-507 "HH___Busns__Work_place"
-508 "HH__a_Busns__Industry.1"
-509 "HH___Family_business_work"
-510 "HH__a_Busns__type"
-511 "HH__b_Busns__Occupation.1"
-512 "HH___Busns__Gross_receipts"
-513 "HH___Busns__Other_expenses"
-514 "HH___Busns__Paid_workers"
-515 "HH___Busns__Net_income"
-516 "HH___Busns__days_yr.2"
-517 "HH__a_Busns__type.1"
-518 "HH__a_Busns__Industry.2"
-519 "EH____NLB_Vaccine_Cent"
-520 "HH___Busns__days_yr.1"
-521 "HH___Disability_Pension_ID"
-522 "HH___Busns__Gross_Receipts"
-523 "HH___Busns__Other_expenses.1"
-524 "HH___Busns__Gross_receipts.1"
-525 "HH___Busns__Net_income.1"
-526 "HH__b_Busns__Occupation.2"
-527 "HH___Busns__Other_expenses.2"
-528 "HH___Busns__Net_income.2"
-529 "HH___Conveyance_Rs"
-530 "HH____Inc__interest"
-531 "HH____property_inc__pensions_etc_"
-532 "HH____Inc__scholarship_gift"
-533 "HH____govt_benefits.x"
-534 "HH__b_Govt_housing_Rs"
-535 "HH__c_Govt_housing_Materials_Rs"
-536 "HH__d_Govt_housing_latrines_Rs"
-537 "HH__e_Govt_housing_chulha_Rs"
-538 "HH___TV_hrs_day_Women"
-539 "HH___Inc__other_source_name"
-540 "HH___Kerosene__Rs.1"
-541 "HH___Edible_oil__lts"
-542 "EH___Meals_per_day"
-543 "EH___EWoman__Education"
-544 "EH___Cash_in_hand"
-545 "EH__a_Age_at_Gauna"
-546 "EH__c_Age_at_Menarche"
-547 "HH___Vegetables__Rs.1"
-548 "HH___Insurance_premiums_Rs"
-549 "HH___Radio_regular_Kids"
-550 "HH___Newspaper_regular_Kids"
-551 "HH___TV_regular_Kids"
-552 "HH___TV_news_regular_Women"
-553 "HH___TV_news_regular_Kids"
-554 "HH___TV_hrs_day_Kids"
-555 "HH___Rice__kg"
-556 "HH___Rice__Rs"
-557 "HH___Sugar__homegrown"
-558 "HH___Kerosene__Rs"
-559 "HH___Kerosene__Lts"
-560 "EH__b_Kerosene_Rs"
-561 "EH___LB_N_checkups"
-562 "HH___Other_cereals__kg"
-563 "HH___Milk_products__price"
-564 "HH___Cereal_products__Rs"
-565 "HH___Cereal_products__kg"
-566 "HH___Cereal_products__Rs.1"
-567 "HH___Pulses__kg"
-568 "HH___Pulses__Rs"
-569 "HH___Pulses__Rs.1"
-570 "HH___Pulses__price"
-571 "HH___Meat__Rs"
-572 "HH___Meat__kg"
-573 "HH___Meat__Rs.1"
-574 "HH___Sweeteners__Rs.1"
-575 "HH___Sweeteners__Rs"
-576 "HH___Sweeteners__kg"
-577 "HH___Sweeteners__price"
-578 "EH__a_Time_to_summer_water"
-579 "HH___Edible_oil__price"
-580 "HH___Eggs__Rs"
-581 "HH___Eggs__dozens"
-582 "HH___Eggs__Rs.1"
-583 "HH___Meat__homegrown"
-584 "HH___Milk__Rs"
-585 "HH___Milk__lts"
-586 "HH___Milk__Rs.1"
-587 "HH____Animal_care"
-588 "HH___Milk_products__Rs"
-589 "HH___Vegetables__Rs"
-590 "HH___Vegetables__price"
-591 "HH___Fuel_Light_Rs"
-592 "EH__c_Electricity_Rs"
-593 "HH___House_Other_rent_Rs"
-594 "HH___Crockery_utensils_Rs"
-595 "HH___Medical_in_patient_Rs"
-596 "EH___MJmorb_Cost_Dr_hosp"
-597 "HH___Own__Generator_set"
-598 "HH___Own__Air_conditioner"
-599 "EH__d_Fuel_Coll_girls"
-600 "EH__a_R_Marriage__"
-601 "HH___School_books_Rs"
-602 "HH___Transport_equipt_Rs"
-603 "HH___Recreation_goods_Rs"
-604 "HH___Other_personal_Rs"
-605 "HH__a_Land_from_govt"
-606 "HH__e_Loan_monthly_rate"
-607 "HH__a_Land_sold_to_pay"
-608 "HH___Milk__price"
-609 "HH__c_Netwk_Med_Sex"
-610 "HH__d_Netwk_School_Relation"
-611 "HH__f_Netwk_Govt_Residence"
-612 "HH___Government_job"
-613 "EH___Husband__N_sisters"
-614 "EH__c_NLB_prob_Convulsions"
-615 "HH___Breaking_in"
-616 "HH___Any_deaths"
-617 "HH__g_Own__Bio_gas_plants"
-618 "HH___Death___Rel_to_head"
-619 "HH___Death___Age"
-620 "EH___Number_of_rooms"
-621 "EH__a_Birth_ID__NLB"
-622 "EH___Free_books"
-623 "HH___Death___Age.2"
-624 "EH___District_Code"
-625 "EH_dist_Ch__School_district"
-626 "EH__h_NLB_checkup_Amnio"
-627 "EH____NLB_Sex_determine"
-628 "EH___Ch__Code"
-629 "EH___Ch__roster_id"
-630 "EH___EWoman__Age"
-631 "EH___Test_ID"
-632 "EH___Ch__Faculty_attendance"
-633 "EH___Ch__Teacher_attendance"
-634 "EH___Ch__Faculty_attendance.1"
-635 "EH___Ch__Teacher_attendance.1"
-636 "EH___Ch__Fair_Teacher"
-637 "EH___Ch__Good_Teacher"
-638 "EH___Ch__Fair_teacher"
-639 "EH___Ch__Good_Teacher.1"
-640 "EH___Ch__._teacher_discuss"
-641 "EH___Ch__._teacher_discuss.1"
-642 "EH___Ch__Average_student"
-643 "EH___Ch__School_enjoyment"
-644 "EH___Ch__School_enjoyment.1"
-645 "EH___Ch__._Repeats"
-646 "EH___Ch__._Repeats.1"
-647 "EH__d_Cooking_Sr_female"
-648 "EH__c_Purchase_Sr_male"
-649 "EH__d_Perm_Sr_Female__health_centre"
-650 "EH__a_LB_Age_at_diet_supp"
-651 "EH__d_LB_AWC_Growth_freq"
-652 "EH____NLB_Size_of_child"
-653 "EH__a_NLB_Age_other_milk"
-654 "EH__b_NLB_Age_solid_food"
-655 "EH___Tuberculosis"
-656 "EH___School_type"
-657 "EH___Husband_blood_rel"
-658 "EH__a_Boy_s_wed_exp_lower"
-659 "EH__b_Boy_s_wed_exp_upper"
-660 "EH__a_Girl_s_wed_exp_lower"
-661 "EH__b_Girl_s_wed_exp_upper"
-662 "EH__s_Wed_Gift__Cash_amount"
-663 "EH__q_Wed_Gift__Tractor"
-664 "HH___Other_govt_Rs"
-665 "EH__a_Walking_time_to_water"
-666 "EH__a_Get_Water_women"
-667 "EH__b_Get_Water_men"
-668 "EH__c_Get_Water_girls"
-669 "EH__d_Get_Water_boys"
-670 "EH___Test_enjoy_school"
-671 "EH__b_Dung_Rs"
-672 "EH__b_Crop_residue_Rs"
-673 "EH__b_LPG_Rs"
-674 "EH__e_Fuel_Coll_boys"
-675 "EH_clinicid_clinic_code"
-676 "EH__a_Fever"
-677 "EH___EWoman__Rel_to_HH_head"
-678 "EH__a_Obs__respondent_ID"
-679 "EH__b_Perm_husband_Friend_home"
-680 "EH___Marriage_status"
-681 "HH___Age"
-682 "HH___Marital_Status"
-683 "EH___EWoman__N_children"
-684 "Imputed_age"
-685 "EH___N_sons_elsewhere"
-686 "EH___N_daughters_elsewhere"
-687 "EH__a_N_sons_died"
-688 "EH__b_N_daughters_died"
-689 "EH___Total_N_children_borne"
-690 "EH___Belief_st_thin_milk"
-691 "EH___Belief_Chulha_smoke"
-692 "EH___LB_Breastfeeding"
-693 "EH__b_LB_AWC_Checkup_freq"
-694 "EH__a_Cooking_Respondent"
-695 "EH__g_Cooking_Most_Say"
-696 "EH__b_Purchase_Husband"
-697 "EH__c_Cooking_Sr_male"
-698 "EH__b_Child_ill_Husband"
-699 "EH__d_Purchase_Sr_female"
-700 "EH__d_Child_ill_Sr_female"
-701 "EH__d_Child_s_wed_Sr_female"
-702 "EH__d_Perm_Sr_Female_Friend_home"
-703 "EH__e_Purchase_Other"
-704 "EH__e_Perm_others_Friend_home"
-705 "EH__e_Perm_others_Kirana_shop"
-706 "EH__f_Purchase_No_One"
-707 "EH__f_Child_ill_No_One"
-708 "EH__w_Homework_Adult_women"
-709 "EH__a_N_children_Respondent"
-710 "EH__b_N_children_Husband"
-711 "EH__c_N_children_Sr_male"
-712 "EH__b_Child_s_wed_Husband"
-713 "EH__g_Purchase_Most_Say"
-714 "EH__c_Child_s_wed_Sr_male"
-715 "EH__c_Perm_Sr_male__health_centre"
-716 "EH__c_Perm_Sr_male_Friend_home"
-717 "HH___Relationship_to_head"
-718 "HH___Busns.2"
-719 "HH___Maternity_Benefit_ID"
-720 "EH___ID_Code"
-721 "EH__e_Child_ill_Other"
-722 "EH__g_Child_ill_Most_Say"
-723 "EH__g_Child_s_wed_Most_Say"
-724 "EH__f_N_children_No_One"
-725 "EH__g_N_children_Most_Say"
-726 "EH__e_N_children_Other"
-727 "EH__a_Child_s_wed_R"
-728 "EH__m_Shopping_Adult_men"
-729 "HH___Seeds_Rs"
-730 "EH__a_Permission_health_centre"
-731 "EH__b_Perm_husband__health_centre"
-732 "EH__b_Perm_husband_Kirana_shop"
-733 "EH__d_Perm_Sr_Female_Kirana_shop"
-734 "HH___Maternity_Benefit_Rs"
-735 "EH__c_Perm_Sr_male_Kirana_shop"
-736 "EH__b_NLB_post_high_fever"
-737 "EH____LB_mos__Vitamin_A"
-738 "EH___Household_servant"
-739 "EH___Financial_support"
-740 "EH___Distance_natal_family"
-741 "EH___Widow_support"
-742 "EH___Live_with_in_old_age"
-743 "Imputed_age_at_gauna"
-744 "EH___N_daughters_with_R"
-745 "EH__chk_One__live_births"
-746 "EH___N_sons_with_R"
-747 "EH__a_Age_at_marriage"
-748 "Imputed_age_at_marriage"
-749 "EH___Natal_fam_married_husb_fam"
-750 "EH__a_Husb_sisters_educ"
-751 "EH__b_Husb_brothers_educ"
-752 "EH__a_Husb_N_brothers"
-753 "EH__a_st_marriage_Age"
-754 "EH__a_st_marriage_Age_gauna"
-755 "EH__b_N_miscarriages"
-756 "EH__c_N_spontaneous_miscarr"
-757 "EH__d_N_abortions"
-758 "EH__b_LB_Survival"
-759 "EH___Current_pregnancy"
-760 "EH__a_More_ch_desired_Husb"
-761 "EH__a_Birth_ID__LB"
-762 "EH__e_LB_AWC_Educ"
-763 "EH__b_N_more_desired_Husb"
-764 "EH__b_N_more_desired"
-765 "EH___N_children_ideally"
-766 "EH___Nbirths_since_Jan"
-767 "EH__a_LB_Antenatal_checkup"
-768 "EH__a_NLB_Antenatal_checkup"
-769 "EH__d_NLB_checkup_Home"
-770 "EH__e_NLB_checkup_Other"
-771 "EH__h_NLB_checkup_Midwife"
-772 "EH__b_NLB_prob_Blurred"
-773 "EH__e_NLB_prob_Anaemia"
-774 "EH__f_NLB_prob_Bleeding"
-775 "EH___NLB_N_TT_injections"
-776 "EH___NLB_Pre_delivery_home"
-777 "EH__d_NLB_delivery_Friend"
-778 "EH___NLB_Type_of_Delivery"
-779 "EH__a_NLB_post_check_Days"
-780 "EH__a_NLB_post_bleeding"
-781 "EH__a_NLB_._Polio"
-782 "EH____NLB_mos_Vit_A"
-783 "EH___NLB_Brfeed_start"
-784 "EH__d_NLB_AWC_Growth"
-785 "EH__b_NLB_Survival"
-786 "EH___Standard__yrs_"
-787 "EH__a_NLB_Birth_ID"
-788 "EH__b_NLB_Survival.1"
-789 "EH__e_LB_checkup_Abdomen"
-790 "EH__b_LB_checkup_Gov_clinic"
-791 "EH__b_NLB_checkup_Govt"
-792 "EH__c_NLB_checkup_Priv"
-793 "EH__i_LB_checkup_By_other"
-794 "EH__a_LB_delivery__doctor"
-795 "EH__i_NLB_checkup_See_Other"
-796 "EH__b_NLB_checkup_BP"
-797 "EH__d_NLB_checkup_Urine"
-798 "EH____LB_Measles_vaccine"
-799 "EH__g_LB_checkup_Sonogram"
-800 "EH__g_NLB_checkup_Sonogram"
-801 "EH__a_NLB_prob_Night_blind"
-802 "EH__c_LB_prob__Convulsions"
-803 "EH__f_LB_prob__Bleeding"
-804 "EH___LB_Type_of_Delivery"
-805 "EH___NLB_Place_of_delivery"
-806 "EH__b_NLB_delivery_Nurse"
-807 "EH__d_LB_delivery__Friend"
-808 "EH___NLB_N_checkups"
-809 "EH__a_LB_Immun_BCG_date"
-810 "EH__b_LB_Immun_Polio_date"
-811 "EH__c_LB_Immun_DPT_date"
-812 "EH__d_LB_Immun_DPT_date"
-813 "EH__e_LB_Immun_DPT_date"
-814 "EH__f_LB_Immun_Polio_date"
-815 "EH__g_LB_Immun_Polio_date"
-816 "EH__h_LB_Immun_Polio_date"
-817 "EH__i_LB_Immun_Measls_date"
-818 "EH____NLB_Vacc_No_card"
-819 "EH__a_LB_Polio_frequency"
-820 "EH____NLB_._DPT"
-821 "EH____NLB_Measles_vacc"
-822 "EH___NLB_Squeeze_milk"
-823 "EH__b_LB_Age_at_Solid_food"
-824 "EH__a_LB_AWC_Immunization"
-825 "EH__b_LB_AWC_Health_check"
-826 "EH__a_NLB_AWC_Immunization"
-827 "EH__a_NLB_AWC_Immun_freq"
-828 "EH__d_LB_AWC_Grow_monitor"
-829 "EH__b_NLB_AWC_Checkup"
-830 "EH____LB_AWC_beneficiary"
-831 "EH__c_NLB_AWC_Food"
-832 "EH__c_NLB_AWC_Food_freq"
-833 "EH__d_NLB_AWC_Growth_frq"
-834 "EH__e_LB_AWC_Educ_freq"
-835 "EH__a_NLB_delivery_doctor"
-836 "EH__a_NLB_Immun_BCG"
-837 "EH__b_NLB_Immun_Polio_"
-838 "EH__c_NLB_Immun_DPT"
-839 "EH__d_NLB_Immun_DPT"
-840 "EH__e_NLB_Immun_DPT"
-841 "EH__f_NLB_Immun_Polio_"
-842 "EH__g_NLB_Immun_Polio_"
-843 "EH__h_NLB_Immun_Polio_"
-844 "EH__i_NLB_Immun_Measles"
-845 "EH____NLB_AWC_beneficiary"
-846 "EH__e_NLB_AWC_Education"
-847 "EH__b_NLB_AWC_Checkup_frq"
-848 "EH__e_NLB_AWC_Educ_freq"
-849 "EH___Obs__Clarity"
-850 "HH_Total_income"
-851 "HH____Total_income"
-852 "HH____HH_wage_._salary"
-853 "HH____HH_salaries"
-854 "HH____hh_salaries"
-855 "HH___Ann_earnings_tot"
-856 "HH____hh_ag_wages"
-857 "HH____hh_nonag_wages"
-858 "HH____Net_business_inc_hh"
-859 "HH____Net_business_income"
-860 "HH__crop_net_income"
-861 "HH____Family_farm_income"
-862 "HH___total_HH_remittances"
-863 "HH____Sum_hh_remittances"
-864 "HH____Inc__renting_property"
-865 "HouseHold_question_pg____property__pensions_etc_"
-866 "HH____property__pensions_etc_"
-867 "HH__a_Inc__Govt_pension"
-868 "Imputed_age_at_first_marriage"
-869 "HH___Nonag_wage_labour"
-870 "HH____Salaried_position"
-871 "HH___Farm_work_hours_day"
-872 "HH___Working_days_job"
-873 "HH___Work_hrs_day_job"
-874 "HH____Work_hrs_yr_job_"
-875 "HH___Educ__Enrolled_now"
-876 "HH___._of_jobs"
-877 "HH___Payment_period_job"
-878 "HH___Bonus_job_"
-879 "HH___Busns__hours_day"
-880 "HH___Sex"
-881 "EH___Cataract"
-882 "EH___Diabetes"
-883 "EH___Asthma"
-884 "EH___Anthropometry_Height"
-885 "HH___Animal_care__ID"
-886 "EH___ID"
-887 "HH___Ann_earnings_job_"
-888 "HH___hourly_wage_tot"
-889 "HH___hourly_wage_job_"
-890 "HH___Bonus_all_jobs"
-891 "HH___Industry__job"
-892 "HH____Work_hrs_yr_tot"
-893 "HouseHold_question__pg_Q__NHouseHold_question_salaried"
-894 "HH___Cash__period_job"
-895 "HH___Casual_job"
-896 "HH___Educ__ID"
-897 "HH___Busns__hours_day.1"
-898 "HH___Widows_Pension_ID"
-899 "HH___Busns__hours_day.2"
-900 "HH____govt_benefits.y"
-901 "HH___Annapurna_ID"
-902 "HH___Knows_computers"
-903 "HH___Educ__Attended_school"
-904 "EH___Test_completed_std"
-905 "EH___Anthropometry_Position"
-906 "EH___Test_attended_school"
-907 "EH___Test_reading_score"
-908 "HH___Other_govt_ID"
-909 "EH___Homework_Hrs_week"
-910 "EH___Pvt_Tuition_Hrs_week"
-911 "EH___Mid_day_meal"
-912 "HH___Educ__English_ability"
-913 "HH___Educ__Highest_degree"
-914 "HH___Educ__College_voc"
-915 "EH___School_distance__Km_"
-916 "EH___Medium_of_instruction"
-917 "EH___Test_writing_score"
-918 "EH__a_STMorb_Days_Unable"
-919 "EH__a_STMorb_Days_hosp"
-920 "EH__a_STMorb_Medicine_Rs"
-921 "EH___MJmorb_ID"
-922 "EH___MJmorb_Treatment"
-923 "EH___Polio"
-924 "EH___Paralysis"
-925 "EH___Mental_illness"
-926 "EH___Tobacco_._alcohol__ID"
-927 "EH___Anthropometry_Weight_st"
-928 "EH___Anthropometry_Weight_nd"
-929 "EH___Test_reading_language"
-930 "EH___Test_writing_language"
-931 "EH___Test_math_language"
-932 "EH___Handwash_aft_defecation"
-933 "EH__y_Med_treatment_Year"
-934 "HH___N_loans_last__yrs"
+496 "HH___Milk_products__homegr"
+497 "HH___Vegetables__Rs"
+498 "HH___Paan_tobac_intox_Rs"
+499 "HH___Entertainment_Rs"
+500 "HH___Vacations_Rs"
+501 "HH___Toiletries_Rs"
+502 "HH___Footwear_Rs"
+503 "HH___Conveyance_Rs"
+504 "HH___Crockery_utensils_Rs"
+505 "HH___Own__Clock_watch"
+506 "EH__g_LB_checkup_Sonogram"
+507 "HH___Recreation_goods_Rs"
+508 "EH__a_st_marriage_Age"
+509 "HH___Own__Air_conditioner"
+510 "HH__a_Yrs_ago_largest_loan"
+511 "HH____Outstanding_HH_debt"
+512 "HH__d_Loan_source"
+513 "HH__f_Loan_repayment"
+514 "HH__a_Land_sold_to_pay"
+515 "HH__a_Inc__sale_non_ag_land"
+516 "HH__b_Jewelery_sold_to_pay"
+517 "HH__a_Debt_with_shopkeeper"
+518 "HH__b_Rs_debt_shopkeeper"
+519 "HH__b_Netwk_Med_type"
+520 "HH__c_Netwk_Med_Sex"
+521 "HH__f_Netwk_Med_Residence"
+522 "HH__d_Netwk_Med_Relation"
+523 "HH__e_Netwk_Med_Community"
+524 "HH__b_Netwk_School_type"
+525 "HH__c_Netwk_School_Sex"
+526 "HH__f_Netwk_School_Residence"
+527 "HH__d_Netwk_School_Relation"
+528 "HH__f_Netwk_Govt_Residence"
+529 "HH__b_Netwk_Govt_type"
+530 "HH__d_Netwk_Govt_Relation"
+531 "HH___Member_Self_Help"
+532 "HH___Solve_local_problems"
+533 "HH___Breaking_in"
+534 "HH___Attack_threat"
+535 "HH___Any_deaths"
+536 "HH___Death___Rel_to_head"
+537 "EH___Marriage_status"
+538 "HH___Death___Childbirth"
+539 "HH___Death___Rel_to_head.1"
+540 "EH___MJmorb_Cost_Travel"
+541 "EH___Ch__roster_id"
+542 "EH___Ch__Teacher_attendance"
+543 "EH___Ch__Biased_Teacher"
+544 "EH___Ch__._teacher_discuss"
+545 "EH___Ch__Average_student"
+546 "EH___Ch__._Repeats"
+547 "EH___Test_attended_school"
+548 "EH___Ch__Faculty_attendance.1"
+549 "EH___Ch__Fair_Teacher"
+550 "EH___Ch__Teacher_attendance.1"
+551 "EH___Ch__Good_Teacher"
+552 "EH___Ch__Good_Teacher.1"
+553 "EH___Ch__School_enjoyment"
+554 "EH___Ch__Average_student.1"
+555 "EH___Ch__School_enjoyment.1"
+556 "EH___Test_enjoy_school"
+557 "EH__a_Ch__Ever_praised.1"
+558 "EH__b_Ch__Ever_beaten"
+559 "EH_dist_Ch__School_district"
+560 "EH_sch_Ch__School_code"
+561 "EH___EWoman__Rel_to_HH_head"
+562 "EH__c_Purchase_Sr_male"
+563 "EH___Ch__._Repeats.1"
+564 "EH_sch_Ch__School_code.1"
+565 "EH___School_type"
+566 "EH___Free_books"
+567 "EH___Marry_daughter_cousin"
+568 "EH__a_Boy_s_wed_exp_lower"
+569 "EH__b_Girl_s_wed_exp_upper"
+570 "EH__f_Child_ill_No_One"
+571 "EH__a_Girl_s_wed_exp_lower"
+572 "EH__e_Wed_Gift__scooter"
+573 "EH__f_Wed_Gift__TV"
+574 "EH__k_Wed_Gift__Mixer_Grinder"
+575 "EH__n_Wed_Gift__Bicycle"
+576 "EH__q_Wed_Gift__Tractor"
+577 "EH__p_Wed_Gift__Livestock"
+578 "EH__s_Wed_Gift__Cash_amount"
+579 "EH__a_Walking_time_to_water"
+580 "EH__a_Get_Water_women"
+581 "EH__d_Get_Water_boys"
+582 "EH__d_Fuel_Coll_girls"
+583 "EH__e_Fuel_Coll_boys"
+584 "EH__a_Vent_in_cooking_place"
+585 "EH___HH_electricity"
+586 "EH__a_Electricity_hours"
+587 "EH__b_Firewood_Rs"
+588 "EH__a_Dung_source"
+589 "EH__a_Fuel_distance"
+590 "EH__a_Crop_residue_source"
+591 "EH___Crop_residue_use"
+592 "EH__a_Kerosene_source"
+593 "EH___Kerosene_use"
+594 "EH___LPG_use"
+595 "EH__a_LPG_source"
+596 "EH__b_LPG_Rs"
+597 "EH__b_Coal__charcoal_Rs"
+598 "EH___Med_treatment_who"
+599 "EH_clinicid_clinic_code"
+600 "EH___Illness_type"
+601 "EH__a_Fever"
+602 "EH___Doctor_s_behaviour"
+603 "EH___Med_treat_accompanied"
+604 "EH__d_Cooking_Sr_female"
+605 "EH__g_Purchase_Most_Say"
+606 "EH__b_Child_ill_Husband"
+607 "EH__d_Perm_Sr_Female__health_centre"
+608 "EH__b_Perm_husband_Friend_home"
+609 "HH___total_HH_remittances"
+610 "HH___Relationship_to_head"
+611 "HH___Marital_Status"
+612 "EH___N_sons_with_R"
+613 "EH___N_daughters_with_R"
+614 "EH___Total_N_children_borne"
+615 "EH__a_More_ch_desired_Husb"
+616 "EH__a_Birth_ID__NLB"
+617 "EH___Purify_water"
+618 "EH__b_Drinking_water_pouring"
+619 "EH__c_AIDS_Mosquito_bite"
+620 "EH___Belief_st_thin_milk"
+621 "EH___Belief_Chulha_smoke"
+622 "EH__c_Perm_Sr_male__health_centre"
+623 "EH__a_st_marriage_Age_gauna"
+624 "EH__a_N_sons_died"
+625 "EH__b_N_daughters_died"
+626 "EH___LB_Breastfeeding"
+627 "Imputed_age_at_marriage"
+628 "EH__e_Purchase_Other"
+629 "EH__f_Purchase_No_One"
+630 "EH___Girls_educatn_equal"
+631 "EH___AIDS_Awareness"
+632 "EH__a_AIDS_Sex"
+633 "EH__a_Cooking_Respondent"
+634 "EH__g_Cooking_Most_Say"
+635 "EH__c_Cooking_Sr_male"
+636 "EH__d_Perm_Sr_Female_Friend_home"
+637 "EH__f_Cooking_No_One"
+638 "EH__a_Purchase_Respondent"
+639 "EH__b_Purchase_Husband"
+640 "EH__b_N_children_Husband"
+641 "EH__g_N_children_Most_Say"
+642 "EH__b_Child_s_wed_Husband"
+643 "EH__c_Child_s_wed_Sr_male"
+644 "EH__c_Perm_Sr_male_Friend_home"
+645 "EH__g_Child_ill_Most_Say"
+646 "EH__g_Child_s_wed_Most_Say"
+647 "EH__f_N_children_No_One"
+648 "EH__e_N_children_Other"
+649 "EH__e_Child_ill_Other"
+650 "HH___Therapeutic_app_Rs"
+651 "EH__e_Child_s_wed_Other"
+652 "EH__b_Perm_husband__health_centre"
+653 "EH__b_Perm_husband_Kirana_shop"
+654 "EH__d_Perm_Sr_Female_Kirana_shop"
+655 "EH__c_Perm_Sr_male_Kirana_shop"
+656 "EH__b_Husb_brothers_educ"
+657 "EH__e_Perm_others_health_centre"
+658 "EH__e_Perm_others_Friend_home"
+659 "EH__e_Perm_others_Kirana_shop"
+660 "EH__f_Visit_Friend_home_alone"
+661 "EH__f_Visit_Kirana_shop_alone"
+662 "EH__b_NLB_post_high_fever"
+663 "EH__s_Shopping_Respondent"
+664 "EH__m_Shopping_Adult_men"
+665 "EH__m_Homework_Adult_men"
+666 "EH__w_Homework_Adult_women"
+667 "EH__c_Homework_Children"
+668 "EH__b_Resp_account_holder"
+669 "EH___Financial_support"
+670 "EH___Beat_leaves_no_permit"
+671 "EH___Beat_if_no_dowry"
+672 "EH___Beat_if_House_neglect"
+673 "EH___Beat_if_extramarital"
+674 "EH___Beat_if_bad_cooking"
+675 "EH___Widow_support"
+676 "EH___Live_with_in_old_age"
+677 "EH___Would_live_w_daughter"
+678 "EH__who_else_present"
+679 "EH__d_Menarche_after_wed"
+680 "EH__b_N_more_desired"
+681 "EH___Knew_husb_before_wed"
+682 "EH___Natal_fam_married_husb_fam"
+683 "EH__a_R_Marriage__"
+684 "HH____Inc__scholarship_gift"
+685 "HH___Sex"
+686 "EH___N_sons_elsewhere"
+687 "EH__chk_One__live_births"
+688 "EH___N_daughters_elsewhere"
+689 "EH__a_N_still_births"
+690 "EH__a_NLB_Birth_ID"
+691 "EH__d_N_abortions"
+692 "EH__a_Contraceptive_usage"
+693 "EH___Current_pregnancy"
+694 "EH__a_More_children_desired"
+695 "EH__c_Time_next_birth_Husb"
+696 "EH__a_N_sons_ideally"
+697 "EH__b_N_daughters_ideally"
+698 "EH___Nbirths_since_Jan"
+699 "EH__a_NLB_Antenatal_checkup"
+700 "EH__e_NLB_checkup_Other"
+701 "EH__d_NLB_checkup_Urine"
+702 "EH__a_NLB_prob_Night_blind"
+703 "EH__b_NLB_prob_Blurred"
+704 "EH__f_NLB_prob_Bleeding"
+705 "EH___NLB_Pre_delivery_home"
+706 "EH__a_NLB_delivery_doctor"
+707 "EH__d_NLB_delivery_Friend"
+708 "EH___NLB_Type_of_Delivery"
+709 "EH___NLB_Post_checkup"
+710 "EH__a_NLB_post_bleeding"
+711 "EH___Standard__yrs_"
+712 "EH__b_LB_Survival"
+713 "EH___Anthropometry_Position"
+714 "EH__a_LB_Antenatal_checkup"
+715 "EH___LB_checkup_Months"
+716 "EH__b_LB_checkup_Gov_clinic"
+717 "EH__c_LB_checkup_Pvt_clinic"
+718 "EH__f_LB_checkup_doctor"
+719 "EH__g_LB_checkup_Nurse_ANM"
+720 "EH__b_NLB_checkup_Govt"
+721 "EH__c_NLB_checkup_Priv"
+722 "EH__d_LB_checkup_Gov_as_pvt"
+723 "EH__d_NLB_checkup_Home"
+724 "EH__e_LB_checkup_Home"
+725 "EH__i_LB_checkup_By_other"
+726 "EH__g_NLB_checkup_Nurse"
+727 "EH__i_NLB_checkup_See_Other"
+728 "EH___NLB_Health_worker"
+729 "EH___NLB_N_checkups"
+730 "EH__a_NLB_checkup_Weight"
+731 "EH__d_LB_checkup_Urine_Test"
+732 "EH__b_NLB_checkup_BP"
+733 "EH__e_LB_checkup_Abdomen"
+734 "EH__a_LB_prob__Night_blindness"
+735 "EH___LB_Type_of_Delivery"
+736 "EH__g_NLB_checkup_Sonogram"
+737 "EH__h_NLB_checkup_Amnio"
+738 "EH__c_LB_prob__Convulsions"
+739 "EH__d_LB_prob__Fatigue"
+740 "EH__e_LB_prob__Anaemia"
+741 "EH__a_LB_delivery__doctor"
+742 "EH____LB_._DPT_given"
+743 "EH____LB_Measles_vaccine"
+744 "EH____LB_AWC_beneficiary"
+745 "EH___LB_Iron_tablets"
+746 "EH____NLB_Iron_tablets"
+747 "EH___LB_Place_of_delivery"
+748 "EH__b_LB_delivery__Nurse"
+749 "EH__b_NLB_delivery_Nurse"
+750 "EH__e_LB_delivery__Other"
+751 "EH__a_LB_Immun_BCG_date"
+752 "EH__b_LB_Immun_Polio_date"
+753 "EH__c_LB_Immun_DPT_date"
+754 "EH__f_LB_Immun_Polio_date"
+755 "EH__i_LB_Immun_Measls_date"
+756 "EH____LB_Vacc_not_recorded"
+757 "EH__b_NLB_Immun_Polio_"
+758 "EH__d_LB_Immun_DPT_date"
+759 "EH__g_LB_Immun_Polio_date"
+760 "EH__e_LB_Immun_DPT_date"
+761 "EH__h_LB_Immun_Polio_date"
+762 "EH____LB_BCG_given"
+763 "EH__b_LB_First_polio_time"
+764 "EH____NLB_Measles_vacc"
+765 "EH____NLB_Vaccine_Cent"
+766 "EH___NLB_Brfeed_start"
+767 "EH___LB_Squeeze_milk"
+768 "EH___NLB_Squeeze_milk"
+769 "EH__a_LB_AWC_Immunization"
+770 "EH__a_NLB_AWC_Immunization"
+771 "EH__b_LB_AWC_Health_check"
+772 "EH__a_NLB_AWC_Immun_freq"
+773 "EH__d_LB_AWC_Growth_freq"
+774 "EH__b_NLB_AWC_Checkup"
+775 "EH__e_LB_AWC_Educ"
+776 "EH__c_NLB_AWC_Food"
+777 "EH__c_NLB_AWC_Food_freq"
+778 "EH__e_LB_AWC_Educ_freq"
+779 "EH__h_NLB_checkup_Midwife"
+780 "EH__c_NLB_checkup_Blood"
+781 "EH___Difficulty_Speaking"
+782 "EH__c_NLB_Immun_DPT"
+783 "EH__c_NLB_prob_Convulsions"
+784 "EH___LB_N_TT_injections"
+785 "EH___NLB_Place_of_delivery"
+786 "EH__a_NLB_Immun_BCG"
+787 "EH__i_NLB_Immun_Measles"
+788 "EH__f_NLB_Immun_Polio_"
+789 "EH__e_NLB_Immun_DPT"
+790 "EH__h_NLB_Immun_Polio_"
+791 "EH____NLB_BCG_given"
+792 "EH____NLB_AWC_beneficiary"
+793 "EH__b_NLB_AWC_Checkup_frq"
+794 "EH__e_NLB_AWC_Education"
+795 "EH__d_NLB_AWC_Growth_frq"
+796 "EH__e_NLB_AWC_Educ_freq"
+797 "EH__a_Obs__House_Excrement"
+798 "EH____Obs__House_Type"
+799 "EH___Obs__Roof_type"
+800 "EH___Obs__Purpose"
+801 "EH___Obs__Confidence"
+802 "HH____Total_income"
+803 "HH____Family_farm_income"
+804 "HH____HH_salaries"
+805 "HH____HH_nonagwages"
+806 "HH_tot_income_quint_.neg"
+807 "HH___Ann_earnings_job_"
+808 "HH___Casual_job"
+809 "HH____hh_salaries"
+810 "HH____hh_ag_wages"
+811 "HH____Net_business_income"
+812 "HH____Sum_hh_remittances"
+813 "HH____govt_benefits.x"
+814 "HH____govt_benefits.y"
+815 "HH____Work_hrs_yr_job_"
+816 "HH___Busns__days_yr.1"
+817 "HH___Busns__hours_day.1"
+818 "Imputed_age"
+819 "HH___Age"
+820 "EH__a_Age_at_Gauna"
+821 "Imputed_age_at_first_marriage"
+822 "HH___Nonag_wage_labour"
+823 "HH____Salaried_position"
+824 "HH___Animal_care__ID"
+825 "HH___._of_jobs"
+826 "HH___Bonus_job_"
+827 "HH___Government_job"
+828 "HH___Payment_period_job"
+829 "HH___Educ__Highest_degree"
+830 "EH___High_BP"
+831 "EH___Heart_disease"
+832 "EH___Diabetes"
+833 "EH___Asthma"
+834 "EH___Anthropometry_Weight_nd"
+835 "EH___ID"
+836 "HH___Knows_computers"
+837 "HH___Cash__period_job"
+838 "HH___hourly_wage_job_"
+839 "HH___Consumer_tax_fees_Rs"
+840 "HH___Industry__job"
+841 "HH___Widows_Pension_ID"
+842 "EH___Tobacco_._alcohol__ID"
+843 "HH___Busns.1"
+844 "EH___MJmorb_ID"
+845 "HH___NGOs_Rs"
+846 "HH___Educ__ID"
+847 "HH___Maternity_Benefit_ID"
+848 "EH__a_STMorb_ID"
+849 "HH___Disability_Pension_ID"
+850 "HH___Annapurna_ID"
+851 "HH___Other_govt_ID"
+852 "HH___Educ__Attended_school"
+853 "HH___Educ__English_ability"
+854 "EH___Test_completed_std"
+855 "HH___Educ__NFEP_ever"
+856 "EH___Medium_of_instruction"
+857 "EH___School_fees"
+858 "EH___Test_writing_score"
+859 "EH__a_Cough"
+860 "EH__a_Diarrhoea"
+861 "EH__a_STMorb_Medicine_Rs"
+862 "EH__a_STMorb_Treatment"
+863 "EH__a_STMorb_Travel_Rs"
+864 "EH__a_STMorb_Dr_hosp_Rs"
+865 "EH__a_STMorb_Days_hosp"
+866 "EH__a_STMorb_Meds_in_cost"
+867 "EH___MJmorb_Treatment"
+868 "EH___MJmorb_Days_Unable"
+869 "EH___Epilepsy"
+870 "EH___Mental_illness"
+871 "HH__b_Land_from_govt_Rs"
+872 "EH___Difficulty_Toilet"
+873 "EH___Tobacco__chew"
+874 "EH___Anthropometry_Height"
+875 "EH___Test_reading_score"
+876 "EH___Test_writing_language"
+877 "EH___Test_math_score"
+878 "EH___Handwash_aft_defecation"
 *Arcs
 1 2 1
 1 3 1
@@ -942,9 +886,9 @@
 1 7 1
 1 8 1
 1 9 1
-1 10 0.923076923076923
+1 10 1
 1 11 1
-1 12 0.923076923076923
+1 12 1
 1 13 1
 1 14 1
 1 15 1
@@ -957,17 +901,17 @@
 1 22 1
 1 23 1
 1 24 1
-1 25 0.923076923076923
+1 25 1
 1 26 1
 1 27 1
 1 28 1
 1 29 1
-1 30 0.923076923076923
+1 30 1
 1 31 1
 1 32 1
 1 33 1
 1 34 1
-1 35 0.923076923076923
+1 35 1
 1 36 1
 1 37 1
 1 38 1
@@ -993,31 +937,31 @@
 1 58 1
 1 59 1
 1 60 1
-1 61 0.923076923076923
+1 61 1
 1 62 1
 1 63 1
 1 64 1
 1 65 1
 1 66 1
 1 67 1
-1 68 0.923076923076923
+1 68 1
 1 69 1
 1 70 1
 1 71 1
 1 72 1
-1 73 0.923076923076923
+1 73 1
 1 74 1
 1 75 1
 1 76 1
-1 77 0.923076923076923
+1 77 1
 1 78 1
 1 79 1
 1 80 1
 1 81 1
 1 82 1
-1 83 0.923076923076923
+1 83 1
 1 84 1
-1 85 0.923076923076923
+1 85 1
 1 86 1
 1 87 1
 1 88 1
@@ -1052,1906 +996,1615 @@
 1 117 1
 1 118 1
 1 119 1
-120 121 1
-120 122 1
-123 124 1
-123 125 1
-123 126 1
-123 127 1
-123 128 1
-123 129 1
-123 130 1
-123 131 1
-123 132 1
-123 133 1
-123 134 1
-123 135 1
-123 136 1
-123 137 1
-123 138 1
-123 139 1
-123 140 1
-123 141 1
-123 142 1
-123 143 1
-123 144 1
-123 145 1
-123 146 0.923076923076923
-123 147 1
-123 148 1
-123 149 1
-123 150 1
-123 151 1
-2 1 1
-2 152 1
-2 153 1
-2 154 1
-2 155 1
-2 156 1
-2 157 1
-2 158 1
-2 159 1
-2 160 1
-2 161 1
-2 162 1
-2 163 1
-2 164 1
-2 165 1
-2 166 1
-2 167 1
-2 168 1
-2 169 1
-2 170 1
-2 171 1
-2 172 1
-2 173 1
-2 174 1
-2 175 1
-2 176 1
-2 177 1
-2 178 1
-2 179 1
-2 180 1
-2 181 1
-2 182 1
-2 183 1
-2 184 1
-2 185 1
-2 186 1
-2 187 1
-2 188 1
-2 189 1
-2 190 1
-2 191 1
-2 192 1
-2 193 1
-2 194 1
-2 195 1
-2 196 1
-2 197 1
-2 198 1
-2 199 1
-2 200 1
-2 201 1
-2 202 1
-2 203 1
-2 204 1
-2 205 1
-2 206 1
-2 207 1
-2 208 1
-2 209 1
-2 210 1
-2 211 1
-2 212 1
-2 213 1
-2 214 1
-2 215 1
-2 216 1
-2 217 1
-2 218 1
-2 219 1
-2 220 1
-2 221 1
-2 222 1
-2 223 1
-2 224 1
-2 225 1
-2 226 1
-2 227 1
-2 228 1
-2 229 1
-2 230 1
-2 231 1
-2 232 1
-2 233 1
-2 234 1
-2 235 1
-2 236 1
-2 237 1
-2 238 1
-2 239 0.923076923076923
-2 240 1
-2 241 1
-2 242 1
-2 243 1
-2 244 1
-2 245 1
-2 246 1
-2 247 1
-2 248 1
-2 249 1
-2 250 1
-2 251 1
-2 252 1
-2 253 1
-2 254 1
-2 255 1
-2 256 1
-2 257 1
-2 258 1
-2 259 1
-2 260 1
-2 261 1
-2 262 1
-2 263 1
-2 264 1
-2 265 1
-2 266 1
-2 267 1
-2 268 1
-2 269 1
-2 270 1
-2 271 1
-2 272 1
-2 273 1
-2 274 0.923076923076923
-2 275 1
-2 276 1
-2 277 1
-2 278 1
-2 279 1
-2 280 1
-2 281 1
-2 282 1
-2 283 1
-2 284 1
-2 285 1
-2 286 1
-2 287 1
-2 288 1
-2 289 1
-2 290 1
-2 291 1
-2 292 1
-2 293 1
-2 294 1
-2 295 1
-2 296 1
-2 297 1
-2 298 1
-2 299 1
-2 300 1
-2 301 1
-2 302 1
-2 303 1
-2 304 1
-2 305 1
-2 306 1
-2 307 1
-2 308 1
-2 309 1
-2 310 1
-2 311 1
-2 312 1
-2 313 1
-2 314 1
-2 315 1
-2 316 1
-2 317 1
-2 318 1
-2 319 1
-2 320 1
-2 321 0.923076923076923
-2 322 1
-2 323 1
-2 324 1
-2 325 1
-2 326 1
-2 327 1
-2 328 1
-2 329 1
-2 330 1
-2 331 1
-2 332 1
-2 333 1
-2 334 1
-2 335 1
-2 336 1
-2 337 1
-2 338 1
-2 339 1
-2 340 1
-2 341 1
-2 342 1
-2 343 1
-2 344 1
-2 345 1
-2 346 1
-2 347 1
-2 348 1
-2 349 1
-2 350 1
-2 351 1
-2 352 1
-2 353 1
-2 354 1
-2 355 1
-2 356 1
-2 357 1
-2 358 1
-2 359 1
-2 360 1
-2 361 1
-2 362 1
-2 363 1
-2 364 1
-2 365 1
-2 366 1
-2 367 1
-2 368 1
-2 369 1
-2 370 1
-2 371 1
-2 372 1
-2 373 1
-2 374 1
-2 375 1
-2 376 1
-2 377 1
-2 378 1
-2 379 1
-2 380 1
-2 381 1
-2 382 1
-152 2 1
-152 383 1
-152 384 1
-385 123 1
+1 120 1
+1 121 1
+1 122 1
+1 123 1
+1 124 1
+1 125 1
+1 126 1
+1 127 1
+1 128 1
+1 129 1
+1 130 1
+1 131 1
+1 132 1
+1 133 1
+1 134 1
+135 136 1
+135 46 1
+2 137 1
+2 138 1
+2 139 1
+2 140 1
+2 141 1
+2 142 1
+143 135 1
+143 144 1
+143 145 1
+143 146 1
+143 147 1
+143 148 1
+143 149 1
+143 150 1
+143 151 1
+143 152 1
+143 153 1
+143 154 1
+143 155 1
+143 156 1
+143 157 1
+143 158 1
+143 159 1
+143 160 1
+143 161 1
+143 162 1
+143 163 1
+143 164 1
+143 165 1
+143 166 1
+143 167 1
+143 168 1
+143 169 1
+143 170 1
+143 171 1
+143 172 1
+143 173 1
+143 174 1
+143 175 1
+143 176 1
+143 177 1
+143 178 1
+143 179 1
+143 180 1
+143 181 1
+143 182 1
+143 183 1
+143 184 1
+143 185 1
+143 186 1
+143 187 1
+143 188 1
+143 189 1
+143 190 1
+143 191 1
+143 192 1
+143 193 1
+143 194 1
+143 195 1
+143 196 1
+143 197 1
+143 198 1
+143 199 1
+143 200 1
+143 201 1
+143 202 1
+143 203 1
+143 204 1
+143 205 1
+143 206 1
+143 207 1
+143 208 1
+143 209 1
+143 210 1
+143 211 1
+143 212 1
+143 213 1
+143 214 1
+143 215 1
+143 216 1
+143 217 1
+143 218 1
+143 219 1
+143 220 1
+143 221 1
+143 222 1
+143 223 1
+143 224 1
+143 225 1
+143 226 1
+143 227 1
+143 228 1
+143 229 1
+143 230 1
+143 231 1
+143 232 1
+143 233 1
+143 234 1
+143 235 1
+143 236 1
+143 237 1
+143 238 1
+143 239 1
+143 240 1
+143 241 1
+143 242 1
+143 243 1
+143 244 1
+143 245 1
+143 246 1
+143 247 1
+143 248 1
+143 249 1
+143 250 1
+143 251 1
+143 252 1
+143 253 1
+143 254 1
+143 255 1
+143 256 1
+143 257 1
+143 258 1
+143 259 1
+143 260 1
+143 261 1
+143 262 1
+143 263 1
+143 264 1
+143 265 1
+143 266 1
+143 267 1
+143 268 1
+143 269 1
+143 270 1
+143 271 1
+143 272 1
+143 273 1
+143 274 1
+275 276 1
+144 277 1
+144 278 1
+144 4 1
+144 279 1
+144 280 1
+144 281 1
+144 13 1
+144 282 1
+144 25 1
+144 43 1
+144 283 1
+144 48 1
+144 284 1
+144 285 1
+144 286 1
+144 287 1
+144 288 1
+144 125 1
+144 127 1
+144 129 1
+289 108 1
+290 291 1
+290 292 1
+290 293 1
+290 294 1
+290 295 1
+290 296 1
+290 297 1
+298 299 1
+298 300 1
+301 145 1
+301 302 1
+301 303 1
+301 156 1
+301 304 1
+301 159 1
+301 305 1
+301 306 1
+301 179 1
+301 180 1
+301 27 1
+301 28 1
+301 29 1
+301 30 1
+301 181 1
+301 182 1
+301 183 1
+301 307 1
+301 308 1
+301 31 1
+301 184 1
+301 309 1
+301 310 1
+301 311 1
+301 312 1
+301 194 1
+301 50 1
+301 51 1
+301 195 1
+301 199 1
+301 200 1
+301 201 1
+301 202 1
+301 57 1
+301 58 1
+301 225 1
+301 313 1
+301 256 1
+301 314 1
+301 288 1
+301 315 1
+301 316 1
+317 146 1
+317 318 1
+319 320 1
+319 304 1
+319 321 1
+319 142 1
+322 323 1
+322 324 1
+322 325 1
+326 327 1
+326 328 1
+326 329 1
+326 330 1
+326 331 1
+326 332 1
+327 331 1
+3 326 1
+3 333 1
+3 255 1
+3 330 1
+3 109 1
+334 326 1
+334 335 1
+334 336 1
+337 338 1
+339 340 1
+339 341 1
+339 342 1
+339 189 1
+339 203 1
+339 343 1
+339 344 1
+339 345 1
+339 346 1
+339 347 1
+339 348 1
+339 349 1
+350 351 1
+350 352 1
+350 353 1
+350 354 1
+350 355 1
+350 356 1
+357 358 1
+357 359 1
+357 360 1
+357 353 1
+357 361 1
+357 362 1
+358 326 1
+358 340 1
+358 363 1
+358 333 1
+358 364 1
+340 363 1
+340 365 1
+363 40 1
+363 366 1
+145 342 1
+278 190 1
+367 144 1
+4 368 1
+299 281 1
+279 334 1
+279 369 1
+279 370 1
+279 371 1
+279 372 1
+279 373 1
+279 374 1
+279 375 1
+279 376 1
+279 377 1
+279 378 1
+280 379 1
+280 25 1
+280 380 1
+369 379 1
+369 381 1
+5 382 1
+5 383 1
+5 384 1
 385 386 1
-385 7 1
-385 8 1
-385 10 0.923076923076923
-385 387 0.923076923076923
-385 388 1
-385 389 1
-385 30 0.923076923076923
-385 40 1
-385 390 1
-385 43 1
-385 391 1
-385 52 1
-385 53 1
-385 392 1
-385 86 1
-385 111 1
-385 113 1
-153 2 1
-153 393 1
-154 394 1
-154 395 1
-396 397 1
-396 3 1
-396 9 1
-396 398 1
-396 13 1
-396 399 1
-396 178 1
-396 22 1
-396 23 1
-396 24 1
-396 400 1
-396 25 1
-396 401 1
-396 179 1
-396 180 1
-396 402 1
-396 403 1
-396 404 1
-396 182 1
-396 405 1
-396 406 1
-396 407 1
-396 408 1
-396 39 1
-396 390 1
-396 45 1
-396 409 1
-396 241 1
-396 251 1
-396 253 1
-396 51 1
-396 410 1
-396 99 1
-396 102 1
-396 411 1
-396 412 0.923076923076923
-413 397 1
+385 387 1
+388 135 1
+388 327 1
+388 279 1
+388 387 1
+388 389 1
+388 390 1
+388 150 1
+388 391 1
+388 392 1
+388 151 1
+388 393 1
+388 158 1
+388 18 1
+388 394 1
+388 168 1
+388 172 1
+388 380 1
+388 28 1
+388 373 1
+388 206 1
+388 395 1
+388 331 1
+388 396 1
+388 397 1
+388 112 1
+388 398 1
+399 400 1
+6 395 1
+148 401 1
+387 402 1
+403 393 1
+403 402 1
+390 401 1
+404 391 1
+401 405 1
+401 406 1
+401 407 1
+401 408 1
+7 409 1
+7 303 1
+7 410 1
+8 303 1
+8 411 1
+9 412 1
 413 414 1
-397 396 1
-397 413 1
-397 415 1
-397 416 1
-397 417 1
-397 418 1
-415 416 1
-415 419 1
-415 420 1
+413 393 1
+413 415 1
+151 412 1
+416 417 1
+152 418 1
+418 417 1
+418 414 1
+419 418 1
+419 414 1
+393 406 1
+393 419 1
+420 137 1
+333 392 1
+421 370 1
+421 10 1
 421 422 1
 421 423 1
 421 424 1
 421 425 1
-424 426 1
-427 428 1
-429 430 1
-429 431 1
-429 432 1
-429 433 1
-429 388 1
-429 434 1
-429 435 1
-429 436 1
-429 437 1
-430 438 1
-439 440 1
-431 441 1
-431 442 1
-431 443 1
-432 429 1
-432 444 1
-432 445 1
-432 446 1
-444 421 1
-444 431 1
-444 432 1
-444 447 1
-448 449 1
-155 2 1
-155 122 1
-121 120 1
-121 450 1
-451 122 1
-451 452 1
-3 386 1
-3 449 1
-3 453 1
-3 454 1
-3 455 1
-3 456 1
-3 457 1
-124 458 1
-124 389 1
-156 2 1
-157 2 1
-4 1 1
-4 459 1
-4 460 1
-4 461 1
-5 1 1
-5 462 1
-5 463 1
-5 464 1
-459 385 1
-459 421 1
-459 422 1
-459 423 1
-459 3 1
-459 4 1
-459 465 1
-459 466 1
-459 467 1
-459 6 1
-459 162 1
-459 468 1
-459 469 1
-459 9 1
-459 169 1
-459 175 1
-459 17 1
-459 18 1
-459 470 1
-459 471 1
-459 472 1
-459 21 1
-459 389 1
-459 453 1
-459 219 0.923076923076923
-459 220 1
-459 256 1
-459 52 1
-459 473 1
-459 354 1
-459 426 1
-459 474 1
-459 100 1
-462 5 1
-462 475 1
-462 476 1
-475 462 1
-476 462 1
-158 2 1
-158 465 1
-466 477 0.923076923076923
-463 5 1
-478 479 1
-160 2 1
-161 2 1
-480 481 0.923076923076923
-481 480 0.923076923076923
-482 483 0.923076923076923
-482 484 0.923076923076923
+421 426 1
+421 427 1
+370 428 1
+429 10 1
+429 423 1
+429 425 1
+428 430 1
+371 428 1
+371 431 1
+371 424 1
+10 337 1
+10 279 1
+10 153 1
+10 432 1
+10 424 1
+10 433 1
+10 434 1
+153 370 1
+153 435 1
+153 432 1
+302 42 1
+436 431 1
+436 437 1
+436 438 1
+436 439 1
+436 440 1
+436 441 1
+436 308 1
+436 309 1
+436 442 1
+436 443 1
+436 310 1
+436 444 1
+436 445 1
+437 405 1
+437 402 1
+435 436 1
+435 432 1
+435 446 1
+432 439 1
+432 447 1
+438 448 1
+438 449 1
+438 450 1
+439 6 1
+439 8 1
+439 431 1
+439 447 1
+439 451 1
+439 84 1
+447 452 1
+447 302 1
+447 438 1
+447 449 1
+447 453 1
+447 28 1
+447 424 1
+447 271 1
+303 454 1
+453 454 1
+372 455 1
+372 454 1
+372 456 1
+457 454 1
+281 458 1
+281 459 1
+281 460 1
+281 461 1
+459 460 1
+462 281 1
+463 464 1
+465 463 1
+156 281 1
+157 465 1
+12 11 1
+12 450 1
+158 310 1
+466 304 1
+466 160 1
+466 467 1
+304 323 1
+304 468 1
+304 34 1
+159 466 1
+159 304 1
+159 469 1
+159 470 1
+159 305 1
+159 351 1
+159 29 1
+159 471 1
+469 306 1
+469 472 1
+470 473 1
+470 474 1
+160 467 1
+323 473 1
+323 468 1
+305 306 1
+305 467 1
+305 351 1
+306 471 1
+473 305 1
+473 474 1
+467 468 1
+351 467 1
+351 472 1
+351 474 1
+472 306 1
+475 1 1
+475 382 1
+383 408 1
+383 476 1
+477 478 1
+477 13 1
+477 479 1
+478 13 1
+464 275 1
+162 327 1
+162 480 1
+384 480 1
+481 480 1
+481 482 1
+163 14 1
+163 483 1
+483 166 1
+483 484 1
+164 485 1
+164 15 1
 485 486 1
-487 484 1
-488 478 0.923076923076923
-484 489 1
-484 482 0.923076923076923
-484 487 1
-490 491 1
-490 492 1
-7 493 1
-7 494 0.923076923076923
-495 496 1
-497 498 1
-496 499 1
-500 501 1
-502 467 1
+165 487 1
+165 488 1
+489 16 1
+487 483 1
+487 16 1
+487 167 1
+166 18 1
+166 490 1
+166 484 1
+167 491 1
+167 492 1
+491 161 1
+493 491 1
+488 494 1
+168 17 1
+169 20 1
+169 21 1
+170 495 1
+170 20 1
+170 496 1
+170 415 1
+170 332 1
+21 487 1
+21 492 1
+21 494 1
+21 22 1
+21 355 1
+497 23 1
+498 449 1
+175 499 1
+175 500 1
+176 58 1
+501 499 1
+501 24 1
+501 177 1
+359 26 1
+178 502 1
 502 503 1
-502 504 0.923076923076923
-449 505 1
-449 506 1
-449 507 1
-449 508 1
-449 509 1
-449 411 1
-506 510 1
-506 511 1
-512 513 1
-514 515 0.923076923076923
-508 511 1
-508 516 1
-511 517 1
-511 518 1
-9 507 1
-9 163 1
-9 401 1
-9 403 1
-9 39 1
-9 519 0.923076923076923
-9 428 1
-9 455 1
-9 520 1
-9 521 1
+502 504 1
+504 292 1
+504 294 1
+179 505 1
+27 157 1
+27 506 1
+28 295 1
+28 308 1
+29 305 1
+29 507 1
+29 471 1
+471 507 1
+30 441 1
+505 311 1
+181 370 1
+181 508 1
+181 378 1
+182 505 1
+182 311 1
+183 417 1
+307 282 1
+308 282 1
+308 411 1
+31 293 1
+31 471 1
+31 442 1
+184 27 1
+309 509 1
+442 509 1
+310 509 1
+311 32 1
+510 511 1
+444 511 1
+373 297 1
+512 373 1
+512 33 1
+513 511 1
+514 515 1
+516 514 1
+517 518 1
+185 519 1
+185 520 1
+185 521 1
+185 186 1
+519 520 1
 522 523 1
-522 524 1
-523 525 1
-518 526 1
-163 469 1
-163 518 1
-524 527 1
-528 512 1
-528 529 1
-530 531 1
-532 533 1
-10 387 1
-10 534 1
-10 535 1
-10 536 1
-10 537 1
-10 538 0.923076923076923
+523 185 1
+186 524 1
+186 525 1
+186 526 1
+186 187 1
+525 35 1
+527 34 1
+34 523 1
+34 186 1
+34 36 1
+526 528 1
+187 529 1
+187 35 1
+187 528 1
+530 36 1
+36 523 1
+36 187 1
+531 37 1
+532 24 1
+38 533 1
+534 533 1
+535 536 1
+536 312 1
+536 537 1
+188 535 1
+188 538 1
+539 403 1
+539 396 1
 539 540 1
-539 541 1
-539 542 1
-539 543 1
-539 544 1
-539 545 1
-539 546 1
-11 539 1
-165 10 1
-433 547 0.923076923076923
-167 2 1
-168 2 1
-168 11 1
-398 12 1
-398 548 0.923076923076923
-169 408 1
-170 2 1
-170 13 1
-170 15 1
-170 549 1
-417 419 1
-417 550 1
-13 417 1
-13 171 1
-13 399 1
-13 551 1
-14 1 1
-171 552 1
-171 553 1
-15 549 1
-419 552 1
-419 550 1
-399 549 1
-399 551 1
-399 24 1
-399 400 1
-552 399 1
-552 553 1
-549 550 1
-550 553 1
-551 549 1
-551 550 1
-551 554 1
-551 553 1
-551 294 1
-555 556 1
-460 4 1
-461 4 1
-461 482 0.923076923076923
-461 557 1
-557 461 1
-172 2 1
-16 1 1
-558 559 1
-558 560 1
-558 561 1
-559 558 1
-559 388 1
-173 2 1
-174 2 1
-562 563 0.923076923076923
-176 2 1
-176 393 1
-564 565 0.923076923076923
+42 148 1
+42 149 1
+42 152 1
+42 163 1
+42 446 1
+42 193 1
+42 227 1
+42 248 1
+42 250 1
+42 252 1
+42 111 1
+42 114 1
+42 115 1
+42 265 1
+368 379 1
+43 460 1
+352 541 1
+352 349 1
+191 45 1
+191 542 1
+191 543 1
+191 544 1
+191 545 1
+191 546 1
+191 47 1
+191 547 1
+45 542 1
+45 548 1
+542 549 1
+542 550 1
+283 48 1
+549 410 1
+551 552 1
+543 438 1
+543 549 1
+543 551 1
+543 49 1
+192 546 1
+192 50 1
+545 553 1
+545 554 1
+553 555 1
+553 556 1
+546 545 1
+193 545 1
+193 557 1
+558 52 1
+559 275 1
+46 367 1
+560 44 1
+560 544 1
+560 553 1
+560 546 1
+541 326 1
+541 358 1
+541 333 1
+541 188 1
+541 446 1
+541 343 1
+541 561 1
+541 562 1
+194 442 1
+194 44 1
+548 438 1
+548 550 1
+50 193 1
+51 192 1
+51 544 1
+554 555 1
+563 555 1
+52 49 1
+564 359 1
+564 26 1
+564 565 1
+564 262 1
+564 120 1
 564 566 1
-567 568 1
-569 568 1
-569 570 1
-571 572 1
-571 573 1
-574 575 1
-574 576 1
-574 577 1
-441 571 1
-441 442 1
-441 578 1
-442 569 1
-442 579 0.923076923076923
-580 581 1
-580 582 1
-19 583 0.923076923076923
-582 580 1
-584 585 1
-584 586 1
-472 20 1
-472 52 1
-472 587 1
-588 501 0.923076923076923
-20 588 0.923076923076923
-589 590 1
-589 547 1
-591 592 1
-593 594 1
-595 596 0.923076923076923
-177 401 1
-178 396 1
-178 465 1
-597 576 1
-22 417 1
-23 502 1
-23 403 1
-24 400 1
-400 25 1
-400 404 1
-25 597 1
-25 400 1
-25 404 0.923076923076923
-25 598 1
-401 177 1
-401 27 1
-179 9 1
-179 401 1
-179 27 1
-179 49 0.923076923076923
-179 50 1
-179 599 0.923076923076923
-180 401 1
-180 181 1
-180 27 1
-180 392 1
-180 600 1
-402 601 0.923076923076923
-402 404 1
-402 405 1
-403 514 1
-403 407 1
-404 25 0.923076923076923
-404 402 1
-404 47 1
-182 22 1
-182 404 1
-405 602 1
-405 597 1
-405 598 1
-405 407 1
-598 408 1
-406 405 1
-406 598 1
-407 603 1
-407 604 1
-407 403 1
-407 408 1
-408 598 1
-408 407 1
-26 27 1
-27 605 0.923076923076923
-27 26 1
-184 2 1
-184 453 1
-184 606 1
-125 183 1
-607 608 1
-28 607 1
-185 28 1
-126 186 1
-126 609 1
-126 187 1
-126 29 1
-126 30 1
-126 188 1
-186 609 1
-187 29 1
-187 610 1
-187 454 1
-29 31 1
-188 189 1
-188 190 1
-188 31 1
-188 191 1
-188 192 1
-610 31 1
-610 454 1
-31 29 1
-31 188 1
-31 610 1
-31 33 1
-191 30 0.923076923076923
-192 32 1
-192 611 1
-192 612 1
-454 33 1
-33 192 1
-194 2 1
-194 197 1
-195 2 1
-196 2 1
-197 2 1
-197 194 1
-197 198 1
-197 34 0.923076923076923
-198 2 1
-198 197 1
-199 200 1
-199 613 0.923076923076923
-199 614 1
-201 2 1
-202 2 1
-202 434 1
-127 203 1
-204 205 1
-128 199 1
-128 204 1
-128 271 1
-35 615 1
-206 2 1
-206 615 1
-207 2 1
-208 211 1
-209 2 1
-210 211 1
-211 208 1
-211 210 1
-211 213 1
-212 213 1
-213 211 1
-213 212 1
-214 215 1
-215 214 1
-215 216 1
-216 215 1
-216 217 1
-217 216 1
-616 617 1
-616 595 0.923076923076923
-616 618 1
-616 619 1
-616 36 1
-618 616 1
-618 619 1
-218 616 1
-619 616 1
-36 616 1
-219 2 1
-219 620 1
-220 218 1
-37 429 1
-38 1 1
-39 431 1
-39 458 1
-39 159 1
-39 164 1
-39 165 1
-39 22 1
-39 23 1
-39 400 1
-39 402 1
-39 193 1
-39 619 1
-39 37 1
-39 620 0.923076923076923
-39 473 1
-39 315 1
-39 621 0.923076923076923
-39 99 1
-39 361 1
-39 362 1
-39 106 1
-39 622 1
-39 372 1
-39 114 1
-623 423 1
-623 569 1
-623 589 1
-624 625 1
-122 120 1
-122 385 1
-122 155 1
-122 451 1
-452 458 1
-41 1 1
-41 441 1
-41 609 1
-41 626 1
-41 627 0.923076923076923
-628 439 1
-628 629 1
-628 630 1
-628 631 1
-221 2 1
-221 42 1
-632 633 1
-632 634 1
-633 635 1
-129 43 1
-636 633 1
-636 637 1
-636 638 1
-637 632 1
-637 633 1
-637 639 1
-222 2 1
-222 636 1
-222 637 1
-222 44 1
-130 640 0.923076923076923
-130 45 1
-640 641 1
-642 632 1
-642 643 1
-642 644 1
-643 637 1
-643 645 1
-643 644 1
-645 646 1
-131 223 1
-131 225 1
-131 46 1
-223 645 1
-223 46 1
-625 624 1
-450 121 1
-390 409 1
-629 421 1
-629 555 0.923076923076923
-629 628 1
-629 647 0.923076923076923
-629 648 1
-629 649 0.923076923076923
-629 621 1
-42 650 1
-634 635 1
-43 632 1
-638 639 1
-639 637 1
-639 638 1
-44 638 0.923076923076923
-45 248 0.923076923076923
-224 2 1
-224 634 1
-224 644 1
-225 46 1
-46 44 1
-46 650 0.923076923076923
-46 651 1
-46 652 0.923076923076923
-46 653 1
-46 654 1
-46 655 0.923076923076923
-409 656 1
-133 154 1
-133 556 1
-133 615 0.923076923076923
-133 657 1
-658 659 1
-659 660 1
-660 661 1
-660 662 0.923076923076923
-226 227 1
-227 226 1
-228 2 1
-47 660 1
-47 661 0.923076923076923
-47 663 1
-229 47 1
-230 658 1
-230 229 1
-230 48 1
-230 237 1
-231 226 0.923076923076923
-231 234 1
-134 231 1
-134 233 1
-233 230 1
-233 48 1
-234 232 1
-234 235 1
-235 236 1
-236 606 1
-236 235 1
-236 663 0.923076923076923
-237 664 1
-238 2 1
-238 663 1
-240 2 1
-241 665 1
-241 666 1
-665 578 1
-242 2 1
-243 2 1
-243 578 1
-243 247 1
-244 2 1
-244 583 0.923076923076923
-245 2 1
-246 2 1
-246 247 1
-247 2 1
-247 243 1
-247 246 1
-247 667 1
-666 667 1
-666 668 0.923076923076923
-668 666 0.923076923076923
-668 669 1
-249 2 1
-250 2 1
-251 49 1
-135 396 1
-252 2 1
-252 567 1
-50 506 1
-50 51 1
-50 670 1
-136 50 1
-51 389 1
-51 50 1
-592 591 1
-254 2 1
-137 255 1
-137 410 1
-256 391 1
-256 52 1
-256 54 1
-257 2 1
-257 671 1
-52 472 1
-52 671 1
-52 473 1
-52 425 1
-52 587 1
-258 2 1
-473 672 1
-259 2 1
-259 560 1
-260 2 1
-260 11 1
-260 558 1
-260 560 1
-560 558 1
-410 673 1
-261 2 1
-262 2 1
-383 152 1
-55 1 1
-56 599 1
-56 674 1
-599 674 1
-674 599 1
-263 2 1
-263 675 1
-263 110 1
-138 111 1
-264 2 1
-264 676 1
-265 2 1
-267 2 1
-57 1 1
-57 406 0.923076923076923
-675 263 1
-677 618 1
-677 678 1
-677 630 1
-677 679 1
-677 680 1
-677 681 1
-677 682 1
-630 683 1
-630 684 1
-683 685 0.923076923076923
-683 686 1
-683 687 1
-683 688 1
-683 689 1
-268 653 1
-269 2 1
-140 56 1
-690 691 1
-690 64 0.923076923076923
-690 692 1
-420 392 1
-392 58 1
-392 59 1
-392 670 1
-58 59 1
-141 33 1
-141 392 1
-141 58 1
-141 272 1
-59 58 1
-272 693 1
-273 2 1
-694 695 1
-694 696 1
-274 239 0.923076923076923
-274 266 1
-274 268 1
-274 697 1
-274 695 1
-274 696 1
-274 698 0.923076923076923
-274 309 1
-697 695 1
-647 629 0.923076923076923
-647 677 1
-647 697 1
-647 695 1
-647 648 1
-647 699 1
-647 700 1
-647 701 1
-647 649 1
-647 702 1
-647 290 1
-275 695 1
-275 703 1
-275 704 1
-275 705 1
-276 2 1
-276 706 1
-276 707 1
-276 60 1
-276 708 1
-695 694 1
-695 697 1
-277 694 1
-277 696 1
-277 709 1
-277 710 1
-277 711 1
-696 618 0.923076923076923
-696 694 1
-696 274 1
-696 706 1
-696 710 1
-696 698 1
-696 712 1
-696 679 1
-648 629 1
-648 697 1
-648 647 1
-648 699 1
-648 713 1
-648 709 1
-648 711 1
-648 280 1
-648 700 1
-648 714 1
-648 715 1
-648 716 1
-648 455 1
-648 717 1
-648 718 0.923076923076923
-648 719 1
-648 720 1
-699 697 1
-699 647 1
-699 648 1
-699 713 1
-699 700 1
-699 702 0.923076923076923
-703 721 1
-713 677 1
-713 696 1
-713 703 1
-713 722 1
-713 723 1
-709 724 0.923076923076923
-709 725 1
-710 709 1
-710 724 1
-710 725 1
-711 726 1
-278 711 1
-278 725 1
-726 617 1
-725 711 1
-725 726 1
-279 2 1
-279 727 1
-698 710 1
-698 712 1
-698 728 1
-280 697 1
-280 711 1
-280 700 1
-280 722 1
-280 714 1
-280 715 1
-700 711 1
-700 278 1
-700 721 1
-700 722 1
-700 701 1
-721 703 1
-721 726 1
-721 281 1
-707 60 1
-722 725 1
-722 698 1
-722 700 1
-722 723 1
-727 277 1
-727 709 1
-727 698 1
-727 712 1
-712 710 1
-712 698 1
-712 680 1
-714 701 1
-701 714 1
-701 723 1
-281 729 1
-281 723 1
-723 722 1
-723 712 1
-723 714 1
-723 701 1
-730 731 1
-730 715 1
-730 649 1
-730 284 1
-731 715 1
-731 716 1
-731 732 1
-731 733 1
-731 734 1
-715 716 1
-715 735 1
-649 629 0.923076923076923
-649 647 1
-649 700 1
-649 730 1
-649 731 1
-649 715 1
-649 716 1
-649 702 1
-649 733 1
-649 290 0.923076923076923
-282 2 1
-282 704 1
-282 705 1
-283 285 1
-283 287 1
-284 2 1
-284 730 1
-284 731 1
-284 679 1
-284 716 1
-284 702 0.923076923076923
-284 286 1
-284 736 0.923076923076923
-679 731 1
-679 716 1
-679 732 1
-716 735 1
-702 647 1
-702 699 0.923076923076923
-702 731 1
-702 649 1
-702 679 1
-702 716 1
-702 733 1
-704 275 1
-704 705 1
-285 287 1
-286 732 1
-286 735 1
-286 733 1
-286 705 1
-732 731 1
-732 735 1
-732 733 1
-735 733 1
-705 704 1
-287 285 1
-287 732 1
-287 733 1
-287 289 1
-288 2 1
-289 728 1
-728 698 1
-728 289 1
-728 293 1
-290 708 1
-291 294 1
-292 293 1
-292 708 0.923076923076923
-292 737 0.923076923076923
-293 708 1
-294 551 1
-294 291 1
-143 398 1
-143 61 1
-61 738 1
-61 296 1
-296 739 1
-297 2 1
-298 299 1
-299 300 1
-301 2 1
-301 311 1
-301 740 1
-302 2 1
-144 303 1
-144 304 1
-144 306 1
-303 304 1
-304 303 1
-304 305 1
-305 641 0.923076923076923
-306 590 1
-741 709 1
-741 710 1
-741 742 1
-741 64 1
-741 743 0.923076923076923
-742 62 1
-742 739 1
-742 744 1
-742 745 1
+564 134 1
+567 139 1
+568 53 1
+568 569 1
+53 570 1
+571 569 1
+569 53 1
+569 54 1
+572 54 1
+573 55 1
+55 569 1
+574 55 1
+575 576 1
+577 576 1
+578 569 1
+284 196 1
+195 579 1
+195 580 1
+580 197 1
+580 198 1
+197 581 1
+198 581 1
+198 582 1
+581 583 1
+199 307 1
+200 584 1
+56 440 1
+585 586 1
+585 57 1
+206 587 1
+206 588 1
+206 589 1
+587 207 1
+588 3 1
+590 591 1
+592 465 1
+479 593 1
+479 592 1
+594 595 1
+596 176 1
+596 204 1
+596 205 1
+59 449 1
+597 59 1
+589 208 1
+589 209 1
+589 582 1
+589 583 1
+209 582 1
+582 583 1
+598 599 1
+598 126 1
+287 127 1
+600 601 1
+210 599 1
+602 61 1
+603 210 1
+561 392 1
+561 536 1
+561 343 1
+561 604 1
+561 605 1
+561 606 1
+561 607 1
+561 608 1
+561 537 1
+561 609 1
+561 610 1
+561 611 1
+324 224 1
+353 341 1
+353 360 1
+353 612 1
+353 613 1
+353 614 1
+353 615 1
+353 616 1
+353 355 1
+211 617 1
+211 618 1
+211 619 1
+620 61 1
+620 621 1
+620 65 1
+620 68 1
+620 622 1
+620 623 1
+620 624 1
+620 625 1
+620 626 1
+620 627 1
+621 628 1
+621 629 1
+621 630 1
+631 632 1
+632 62 1
+632 63 1
 62 63 1
-62 746 1
-63 739 1
-64 690 0.923076923076923
-64 741 1
-65 724 0.923076923076923
-65 71 1
-747 600 1
-307 2 1
-307 748 1
-308 2 1
-308 657 1
-309 310 1
-311 2 1
-311 301 1
-312 2 1
-313 2 1
-657 749 1
-749 66 1
-314 2 1
-750 751 1
-751 752 0.923076923076923
-600 753 1
-600 754 1
-753 600 1
-744 746 1
-744 685 1
-687 689 1
-689 687 1
-689 688 1
-755 756 1
-755 757 1
-756 757 1
-757 756 1
-745 698 0.923076923076923
-745 707 1
-745 712 0.923076923076923
-745 742 1
-745 758 1
-316 759 1
-316 68 1
-316 318 1
-316 760 0.923076923076923
-317 2 1
-67 1 1
-68 316 1
-68 760 1
-68 69 1
-68 761 1
-318 69 1
-318 762 1
-760 763 1
-763 764 1
-69 667 1
-319 2 1
-319 70 1
-70 765 0.923076923076923
-71 65 1
-766 767 1
-766 768 1
-766 769 1
-766 770 1
-766 771 1
-766 626 1
-766 772 1
-766 614 1
-766 773 1
-766 774 1
-766 775 1
-766 776 1
-766 777 1
-766 90 1
-766 652 1
-766 778 1
-766 91 1
-766 779 1
-766 780 1
-766 736 1
-766 92 1
-766 781 1
-766 782 1
-766 783 1
-766 97 1
-766 784 1
-761 683 1
-761 746 1
-761 689 1
-761 745 1
-761 68 1
-761 785 1
-758 439 1
-758 551 1
-758 745 1
-758 785 1
-758 786 1
-621 430 1
-621 766 1
-621 787 1
-785 686 1
-785 766 1
-785 758 1
-785 788 1
-767 789 1
-767 768 1
-767 94 1
-790 323 1
-790 791 1
-72 790 1
-72 73 0.923076923076923
-72 327 0.923076923076923
-72 792 1
-73 790 1
-73 793 0.923076923076923
-73 769 1
-320 2 1
-320 790 1
-320 74 1
-320 793 1
-320 770 1
-321 767 1
-321 790 1
-321 72 1
-321 794 1
-321 85 1
-145 767 1
-145 790 1
-145 72 1
-145 73 1
-145 321 0.923076923076923
-145 332 0.923076923076923
-145 347 1
-74 73 0.923076923076923
-74 793 0.923076923076923
-74 771 1
-793 73 0.923076923076923
-793 795 1
-322 348 1
-323 789 1
-323 86 1
-324 325 1
-324 87 1
-325 321 0.923076923076923
-325 324 1
-325 326 0.923076923076923
-325 796 1
-326 75 1
-326 88 1
-326 797 1
-789 767 1
-789 798 1
-327 799 1
-327 800 1
-328 626 1
-329 627 1
-76 77 1
-76 801 1
-77 76 1
-77 802 1
-77 772 1
-802 77 1
-802 79 1
-802 614 1
-330 77 1
-330 802 1
-330 331 1
-330 340 1
-330 79 0.923076923076923
-330 350 1
-331 803 1
-331 804 1
-331 773 1
-803 774 1
-332 89 1
-333 2 1
-333 692 1
-333 775 1
-334 2 1
-334 776 1
-335 794 1
-335 336 1
-335 146 1
-335 804 1
-335 805 1
-336 339 1
-336 341 1
-336 806 1
-146 335 1
-146 351 1
-146 777 1
-807 330 1
-807 337 1
-807 777 1
-337 793 1
-337 90 1
-338 2 1
-338 652 1
-804 778 1
-339 78 1
-339 91 1
-78 779 1
-340 561 1
-340 803 1
-340 79 1
-340 780 1
-79 802 1
-79 808 1
-79 736 1
-341 803 1
-341 804 1
-341 809 1
-341 810 1
-341 811 1
-341 812 1
-341 813 1
-341 814 1
-341 815 1
-341 816 1
-341 817 1
-341 342 1
-341 737 1
-341 92 1
-342 341 1
-342 93 1
-343 818 1
-80 343 1
-344 2 1
-344 819 1
-819 344 1
-147 534 0.923076923076923
-147 95 1
-798 80 1
-798 820 0.923076923076923
-798 821 1
-345 2 1
-345 519 1
-692 758 1
-692 96 1
-81 1 1
-81 783 1
-148 822 1
-346 2 1
-346 650 1
-346 823 1
-650 823 1
-824 82 1
-824 83 1
-82 825 1
-82 693 1
-82 826 1
-82 827 1
-825 693 1
-693 828 1
-693 651 1
-693 829 1
-83 830 1
-83 84 1
-84 762 0.923076923076923
-84 831 1
-84 832 1
-828 651 1
-828 829 1
-651 83 1
-651 784 1
-651 833 1
-762 834 1
-787 761 1
-788 96 1
-768 771 1
-768 821 0.923076923076923
-791 792 1
-791 86 1
-85 419 0.923076923076923
-85 768 1
-85 791 1
-85 792 1
-85 796 1
-85 835 1
-347 768 1
-347 791 1
-347 792 1
-347 806 1
-771 768 1
-771 770 1
-86 767 1
-86 768 1
-796 85 1
-796 87 1
-796 88 1
-88 796 1
-88 797 1
-797 75 1
-797 349 1
-349 765 1
-349 789 1
-349 791 1
-349 87 1
-149 327 1
-149 797 1
-149 800 1
-800 458 1
-800 406 0.923076923076923
-800 799 1
-626 627 0.923076923076923
-801 76 1
-801 772 1
-772 801 1
-772 614 1
-614 772 1
-350 766 1
-350 614 1
-350 773 1
-773 774 1
-89 324 0.923076923076923
-89 796 0.923076923076923
-805 790 1
-805 72 1
-805 791 1
-805 792 1
-805 835 1
-805 806 1
-805 778 1
-835 794 1
-835 85 1
-835 805 1
-351 805 1
-351 806 1
-351 777 1
-351 95 1
-351 827 1
-777 56 1
-777 74 1
-777 652 1
-90 795 1
-736 780 1
-92 836 1
-92 837 1
-92 838 1
-92 839 1
-92 840 1
-92 841 1
-92 842 1
-92 843 1
-92 844 1
-92 93 0.923076923076923
-93 632 1
-93 763 1
-818 614 1
-818 95 1
-94 80 1
-94 818 1
-94 519 1
-820 798 0.923076923076923
-820 821 1
-95 705 1
-821 94 1
-821 820 1
-96 818 0.923076923076923
-822 690 0.923076923076923
-97 653 1
-97 654 1
+619 36 1
+619 62 1
+619 212 1
+633 634 1
+633 67 1
+213 600 1
+213 633 1
+213 635 1
+213 64 1
+213 634 1
+604 333 1
+604 633 1
+604 635 1
+604 634 1
+604 214 1
+604 138 1
+604 218 1
+604 636 1
+604 223 1
+64 634 1
+637 633 1
+637 629 1
+634 635 1
+638 633 1
+638 639 1
+638 605 1
+638 640 1
+638 641 1
+638 67 1
+639 633 1
+639 213 1
+639 640 1
+639 642 1
+562 633 1
+562 635 1
+562 605 1
+562 640 1
+562 66 1
+562 216 1
+562 138 1
+562 643 1
+562 622 1
+562 644 1
+214 635 1
+214 605 1
+214 138 1
+628 64 1
+628 605 1
+605 634 1
+605 639 1
+605 645 1
+605 646 1
+65 633 1
+65 639 1
+65 640 1
+65 647 1
+65 641 1
+65 217 1
+640 647 1
+640 641 1
+66 648 1
+66 641 1
+215 66 1
+215 648 1
+215 647 1
+215 641 1
+641 648 1
+216 635 1
+216 66 1
+216 648 1
+216 138 1
+216 645 1
+216 643 1
+216 622 1
+138 66 1
+138 215 1
+138 645 1
+138 218 1
+649 648 1
+649 645 1
+217 640 1
+217 647 1
+217 67 1
+217 642 1
+642 640 1
+642 606 1
+643 650 1
+643 646 1
+218 643 1
+218 646 1
+651 64 1
+219 647 1
+219 570 1
+68 639 1
+68 652 1
+68 221 1
+68 636 1
+652 222 1
+652 653 1
+652 654 1
+622 536 1
+622 635 1
+622 604 1
+622 607 1
+622 644 1
+622 655 1
+622 656 1
+622 94 1
+622 105 1
+622 258 1
+607 138 1
+607 68 1
+607 652 1
+607 644 1
+607 636 1
+607 655 1
+607 654 1
+657 658 1
+657 659 1
+220 660 1
+220 661 1
+221 608 1
+221 644 1
+221 636 1
+221 662 1
+608 652 1
+608 653 1
+608 655 1
+644 655 1
+636 608 1
+636 644 1
+636 654 1
+658 628 1
+658 659 1
+222 653 1
+222 655 1
+222 654 1
+222 659 1
+653 655 1
 653 654 1
-654 653 1
-845 830 1
-826 827 1
-826 846 1
-827 829 1
-829 828 1
-829 775 1
-829 845 0.923076923076923
-829 847 1
-829 784 1
-831 832 1
-832 845 0.923076923076923
-832 831 1
-832 846 1
-784 829 1
-784 833 1
-833 769 0.923076923076923
-833 847 1
-833 831 0.923076923076923
-833 848 1
-846 848 1
-846 103 1
-848 834 1
-352 2 1
-150 640 1
-150 353 1
-355 2 1
-356 2 1
-357 2 1
-357 396 1
-358 98 1
-849 657 1
-849 98 1
-849 360 1
-359 678 1
-360 358 0.923076923076923
-360 359 1
-850 851 1
-852 853 1
-852 854 1
-852 855 1
-426 856 1
-428 857 1
-858 859 0.923076923076923
-860 861 1
-501 500 1
-501 588 0.923076923076923
-479 478 1
-862 863 1
-531 864 1
-531 530 1
-531 865 1
-531 866 1
-865 867 1
-455 426 1
-455 520 1
-684 439 1
-684 551 1
-684 619 1
-684 759 1
-684 760 1
-684 766 1
-684 761 0.923076923076923
-684 758 0.923076923076923
-684 621 1
-684 785 1
-684 804 1
-684 681 1
-748 743 1
-748 868 1
-868 753 0.923076923076923
-868 748 1
-99 39 1
-99 600 1
-99 748 1
-384 152 1
-445 432 1
-447 444 1
-425 421 1
-425 422 1
-425 474 1
-425 587 1
-425 456 1
-425 869 1
-425 870 1
-425 509 1
-425 871 1
-425 101 1
-425 872 1
-425 873 1
-425 874 1
-425 411 1
-425 875 1
-474 422 1
-474 870 1
-474 100 1
-474 871 1
-587 423 1
-587 870 1
-587 101 1
-456 424 1
-456 426 1
-456 876 1
-869 456 1
-869 876 1
-869 877 1
-870 874 0.923076923076923
-870 878 0.923076923076923
-870 612 1
-509 870 1
-509 411 1
-509 879 1
-509 520 1
-861 850 1
-880 425 1
-880 587 1
-880 870 1
-880 717 1
-880 682 1
-880 879 1
-880 418 1
-880 379 1
-717 677 1
-717 880 1
-717 681 1
-717 682 1
-681 677 1
-681 881 1
-681 882 1
-681 883 1
-682 880 1
-682 875 1
-682 884 1
-100 502 1
-871 474 1
-436 468 1
-885 875 1
-885 886 1
-101 587 1
-855 887 1
-888 889 1
-890 878 1
-457 427 0.923076923076923
-457 869 0.923076923076923
-457 891 1
-457 872 0.923076923076923
-457 873 1
-457 877 1
-872 455 1
-872 892 1
-872 457 0.923076923076923
-872 874 1
-872 877 0.923076923076923
-873 892 1
-873 874 1
-877 893 1
-877 456 1
-877 869 1
-877 870 1
-877 894 1
-877 612 1
-889 888 1
-878 890 1
-895 890 1
-895 612 1
-411 456 1
-411 509 1
-411 879 1
-411 520 1
-446 430 0.923076923076923
-446 432 1
-446 436 1
-446 718 1
-446 896 1
-520 868 1
-520 897 1
-718 446 1
-718 898 1
-516 899 1
-898 718 1
-104 586 0.923076923076923
-104 900 1
-104 664 1
-901 425 1
-664 532 1
-412 734 1
-361 564 1
-361 584 1
-361 104 1
-896 446 1
-896 902 1
-414 903 1
-414 904 1
-903 905 1
-903 906 1
-903 907 1
-875 423 1
-875 425 1
-875 436 1
-875 885 1
-875 101 1
-875 908 1
-875 903 1
-875 418 1
-875 786 1
-875 909 1
-875 910 1
-875 911 1
-875 622 1
-875 114 1
-875 373 1
-875 884 1
-875 904 1
-418 414 1
-418 903 1
-418 105 1
-418 912 1
-418 913 1
-418 786 1
-362 106 1
-914 913 1
-913 914 1
-363 2 1
-363 734 1
-902 896 1
-902 886 1
-902 631 1
-656 915 1
-656 916 1
-786 642 0.923076923076923
-786 758 1
-786 656 1
-786 911 1
-786 622 1
-786 884 1
-786 904 1
-786 907 1
-916 743 0.923076923076923
-916 917 1
-364 2 1
-365 2 1
-366 2 1
-911 622 1
-622 107 1
-622 367 1
-622 368 1
-367 763 0.923076923076923
-368 900 0.923076923076923
-369 2 1
-369 918 1
-676 371 1
-676 109 1
-370 676 0.923076923076923
-370 371 1
-371 676 1
-371 370 1
-371 108 1
-918 919 1
-918 920 0.923076923076923
-109 676 1
-110 112 1
-111 113 1
-113 111 1
-151 375 1
-921 717 1
-921 901 1
-921 886 1
-881 922 1
-114 882 0.923076923076923
-923 922 1
-373 655 1
-374 2 1
-374 924 1
-374 925 1
-922 881 1
-922 655 0.923076923076923
-922 923 1
-922 925 1
-886 885 1
-886 898 1
-886 719 1
-886 521 1
-886 908 1
-886 902 1
-886 921 1
-886 926 1
-376 2 1
-376 115 1
-376 118 1
-115 116 1
-377 117 1
-117 115 1
-117 116 1
-378 118 1
-118 377 1
-118 117 1
-379 380 1
-381 2 1
-884 414 1
-884 875 1
-884 905 1
-927 928 1
-928 927 1
-631 628 1
-631 902 1
-631 720 1
-906 643 1
-906 670 1
-670 643 1
-382 2 1
-929 394 1
-929 536 0.923076923076923
-929 390 1
-929 930 1
-907 670 1
-907 119 1
-907 917 1
-931 932 1
-931 933 1
-931 691 1
-931 825 1
-931 846 1
-119 1 1
-119 642 1
-119 520 1
-119 906 1
-119 917 1
-930 395 1
-930 934 1
-930 452 1
-930 473 1
-930 789 1
-930 773 1
-930 912 1
-930 916 1
-930 931 1
+655 654 1
+661 653 1
+661 654 1
+661 663 1
+663 69 1
+664 665 1
+223 666 1
+224 665 1
+667 351 1
+69 668 1
+225 12 1
+225 668 1
+668 226 1
+226 669 1
+670 283 1
+670 671 1
+670 672 1
+670 673 1
+671 674 1
+672 47 1
+672 674 1
+675 676 1
+675 139 1
+675 73 1
+676 677 1
+676 669 1
+677 70 1
+70 669 1
+678 634 1
+71 679 1
+71 627 1
+71 314 1
+537 639 1
+537 680 1
+681 139 1
+682 72 1
+74 325 1
+75 656 1
+313 683 1
+508 71 1
+508 313 1
+508 683 1
+508 623 1
+623 684 1
+623 683 1
+612 676 1
+612 613 1
+612 685 1
+613 676 1
+613 685 1
+686 613 1
+686 687 1
+688 613 1
+624 614 1
+624 689 1
+625 614 1
+625 689 1
+614 613 1
+614 354 1
+614 690 1
+76 624 1
+76 689 1
+76 77 1
+76 691 1
+77 691 1
+687 219 1
+692 693 1
+692 615 1
+694 680 1
+694 615 1
+694 695 1
+228 695 1
+615 680 1
+696 697 1
+698 360 1
+698 355 1
+698 699 1
+698 700 1
+698 701 1
+698 702 1
+698 703 1
+698 704 1
+698 247 1
+698 705 1
+698 706 1
+698 707 1
+698 100 1
+698 101 1
+698 708 1
+698 709 1
+698 710 1
+698 662 1
+698 102 1
+698 321 1
+698 711 1
+354 616 1
+712 339 1
+712 467 1
+712 468 1
+712 351 1
+712 613 1
+712 626 1
+712 105 1
+712 356 1
+355 94 1
+355 251 1
+355 105 1
+355 253 1
+355 713 1
+714 715 1
+714 699 1
+716 598 1
+716 717 1
+716 718 1
+716 719 1
+716 239 1
+716 720 1
+717 721 1
+722 723 1
+724 79 1
+724 725 1
+724 700 1
+718 717 1
+718 95 1
+719 717 1
+719 722 1
+719 718 1
+719 79 1
+719 726 1
+79 725 1
+725 727 1
+229 724 1
+229 728 1
+230 729 1
+231 80 1
+231 730 1
+80 718 1
+80 140 1
+80 731 1
+80 732 1
+140 717 1
+140 733 1
+733 354 1
+733 714 1
+733 731 1
+733 734 1
+733 249 1
+81 506 1
+81 735 1
+506 82 1
+506 232 1
+506 736 1
+82 736 1
+82 737 1
+734 702 1
+83 734 1
+83 703 1
+738 83 1
+739 228 1
+739 714 1
+739 722 1
+739 718 1
+739 715 1
+739 140 1
+739 733 1
+739 81 1
+739 506 1
+739 83 1
+739 740 1
+739 85 1
+739 741 1
+739 235 1
+739 236 1
+739 86 1
+739 237 1
+739 238 1
+739 742 1
+739 89 1
+739 743 1
+739 239 1
+739 90 1
+739 240 1
+739 241 1
+739 242 1
+739 243 1
+739 744 1
+739 246 1
+740 84 1
+84 704 1
+745 746 1
+85 705 1
+747 741 1
+747 748 1
+747 735 1
+741 231 1
+741 140 1
+741 731 1
+741 233 1
+741 234 1
+741 706 1
+748 719 1
+748 85 1
+748 233 1
+748 749 1
+233 99 1
+233 707 1
+234 750 1
+234 707 1
+750 725 1
+750 100 1
+235 101 1
+735 708 1
+236 709 1
+237 87 1
+237 710 1
+87 662 1
+238 751 1
+238 752 1
+238 753 1
+238 754 1
+238 755 1
+238 756 1
+238 102 1
+751 752 1
+751 753 1
+752 757 1
+753 758 1
+753 754 1
+758 759 1
+760 761 1
+756 103 1
+762 88 1
+742 762 1
+742 743 1
+763 752 1
+743 762 1
+743 90 1
+743 764 1
+239 762 1
+239 765 1
+240 766 1
+767 768 1
+769 91 1
+769 770 1
+91 771 1
+91 141 1
+91 772 1
+771 141 1
+141 773 1
+141 774 1
+92 93 1
+92 775 1
+92 776 1
+93 777 1
+775 778 1
+690 324 1
+94 736 1
+94 737 1
+699 244 1
+720 721 1
+721 455 1
+700 727 1
+95 721 1
+726 699 1
+726 723 1
+726 749 1
+779 700 1
+244 715 1
+729 718 1
+729 753 1
+729 736 1
+729 398 1
+732 95 1
+732 729 1
+732 780 1
+732 701 1
+732 781 1
+780 721 1
+780 701 1
+701 147 1
+701 731 1
+701 782 1
+245 81 1
+245 506 1
+245 729 1
+245 736 1
+736 737 1
+736 97 1
+737 97 1
+783 703 1
+246 783 1
+246 98 1
+98 704 1
+247 784 1
+785 716 1
+785 720 1
+785 721 1
+785 749 1
+785 99 1
+785 708 1
+706 718 1
+706 81 1
+706 729 1
+706 245 1
+706 707 1
+749 211 1
+749 132 1
+99 707 1
+100 727 1
+101 707 1
+248 86 1
+662 710 1
+102 786 1
+102 757 1
+102 782 1
+102 787 1
+786 782 1
+782 788 1
+789 790 1
+104 88 1
+104 791 1
+104 764 1
+791 762 1
+249 742 1
+249 743 1
+249 104 1
+249 791 1
+249 764 1
+250 89 1
+250 131 1
+251 659 1
+251 763 1
+251 104 1
+764 791 1
+765 310 1
+252 90 1
+105 626 1
+105 104 1
+768 211 1
+792 92 1
+792 776 1
+772 770 1
+772 774 1
+774 793 1
+774 794 1
+777 776 1
+777 794 1
+795 723 1
+795 796 1
+794 796 1
+796 775 1
+796 778 1
+797 254 1
+255 797 1
+256 798 1
+256 799 1
+800 106 1
+258 800 1
+258 106 1
+258 801 1
+445 374 1
+445 802 1
+445 803 1
+423 329 1
+423 445 1
+423 804 1
+423 805 1
+423 806 1
+423 807 1
+423 808 1
+804 805 1
+804 809 1
+804 426 1
+804 427 1
+335 336 1
+335 810 1
+805 375 1
+424 445 1
+424 811 1
+374 803 1
+415 137 1
+415 418 1
+415 803 1
+609 812 1
+813 684 1
+813 814 1
+454 451 1
+806 392 1
+806 371 1
+806 439 1
+806 372 1
+806 155 1
+806 169 1
+806 21 1
+806 445 1
+806 335 1
+806 415 1
+806 609 1
+806 375 1
+806 811 1
+806 815 1
+806 816 1
+806 817 1
+818 561 1
+818 562 1
+818 607 1
+818 686 1
+818 688 1
+818 693 1
+818 819 1
+627 107 1
+107 820 1
+821 453 1
+821 632 1
+821 71 1
+821 325 1
+821 624 1
+821 625 1
+314 307 1
+314 683 1
+314 627 1
+108 737 1
+356 339 1
+330 331 1
+330 332 1
+330 336 1
+330 822 1
+330 823 1
+330 433 1
+330 109 1
+330 110 1
+330 815 1
+330 378 1
+330 434 1
+331 823 1
+331 396 1
+331 259 1
+332 823 1
+332 824 1
+336 825 1
+822 328 1
+822 825 1
+823 825 1
+823 826 1
+823 808 1
+823 827 1
+433 823 1
+375 643 1
+375 828 1
+456 455 1
+685 330 1
+685 109 1
+685 110 1
+685 273 1
+685 274 1
+610 685 1
+610 819 1
+610 611 1
+610 345 1
+610 434 1
+819 362 1
+819 321 1
+819 829 1
+819 398 1
+819 486 1
+819 830 1
+819 831 1
+819 832 1
+819 833 1
+819 834 1
+611 685 1
+611 362 1
+611 835 1
+345 362 1
+345 836 1
+109 332 1
+397 377 1
+397 815 1
+425 804 1
+425 376 1
+425 807 1
+426 668 1
+426 837 1
+426 807 1
+426 838 1
+427 290 1
+427 436 1
+427 439 1
+427 451 1
+427 12 1
+427 282 1
+427 839 1
+427 650 1
+427 450 1
+427 500 1
+427 444 1
+427 736 1
+427 806 1
+427 314 1
+427 826 1
+427 808 1
+427 260 1
+427 123 1
+376 805 1
+376 397 1
+376 840 1
+376 828 1
+377 328 1
+110 397 1
+110 377 1
+110 815 1
+815 377 1
+815 807 1
+828 329 1
+828 823 1
+828 837 1
+828 808 1
+807 837 1
+807 808 1
+807 827 1
+838 329 1
+808 826 1
+808 827 1
+346 824 1
+346 841 1
+346 835 1
+346 842 1
+378 433 1
+434 433 1
+434 378 1
+843 345 1
+843 346 1
+843 836 1
+843 844 1
+843 835 1
+816 302 1
+816 378 1
+816 845 1
+817 434 1
+347 846 1
+841 847 1
+841 288 1
+841 848 1
+841 844 1
+260 436 1
+260 813 1
+849 610 1
+849 841 1
+849 847 1
+849 850 1
+849 851 1
+849 288 1
+850 330 1
+845 813 1
+846 336 1
+846 843 1
+318 852 1
+852 713 1
+852 547 1
+362 259 1
+362 847 1
+362 850 1
+362 852 1
+362 711 1
+362 262 1
+362 263 1
+362 566 1
+362 121 1
+362 123 1
+362 268 1
+362 125 1
+362 844 1
+362 270 1
+362 316 1
+321 318 1
+321 852 1
+321 118 1
+321 853 1
+321 829 1
+321 711 1
+321 854 1
+261 142 1
+829 119 1
+836 835 1
+348 349 1
+565 855 1
+565 856 1
+565 857 1
+398 122 1
+711 565 1
+711 398 1
+711 566 1
+711 316 1
+856 858 1
+263 565 1
+265 123 1
+120 566 1
+566 121 1
+566 266 1
+566 267 1
+857 359 1
+268 125 1
+859 601 1
+860 601 1
+860 124 1
+125 861 1
+862 601 1
+126 599 1
+126 128 1
+127 863 1
+864 865 1
+866 864 1
+866 861 1
+861 342 1
+861 865 1
+861 863 1
+863 864 1
+844 848 1
+844 842 1
+486 867 1
+868 486 1
+868 833 1
+868 130 1
+868 540 1
+867 869 1
+867 870 1
+130 871 1
+130 315 1
+315 291 1
+271 291 1
+271 861 1
+271 540 1
+540 863 1
+540 130 1
+540 315 1
+835 844 1
+872 131 1
+131 781 1
+781 132 1
+781 272 1
+272 133 1
+273 873 1
+874 713 1
+316 330 1
+316 264 1
+316 834 1
+834 830 1
+834 874 1
+349 824 1
+349 843 1
+349 347 1
+349 849 1
+349 836 1
+349 848 1
+547 556 1
+854 875 1
+134 705 1
+134 830 1
+134 876 1
+875 554 1
+875 547 1
+875 556 1
+875 877 1
+875 858 1
+482 311 1
+482 878 1
+482 794 1
+877 858 1
+876 300 1
+876 473 1
+876 520 1
+876 715 1
+876 729 1
+876 396 1
+876 845 1
+876 853 1
+876 856 1
+876 482 1
